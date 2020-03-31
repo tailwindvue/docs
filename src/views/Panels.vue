@@ -4,11 +4,14 @@
             <Nav/>
         </div>
         <div class="w-4/5">
-            <tw-heading>Tailwind Vue</tw-heading>
+            <tw-heading>Panels</tw-heading>
+            <tw-panel>
+                <template v-slot:header>
+                    Panels
+                </template>
 
-            <p>
-                Welcome to Tailwind Vue - a Vue JS component library made to speed up development.
-            </p>
+                Bla Bla
+            </tw-panel>
         </div>
     </div>
 </template>
@@ -17,7 +20,7 @@
     import Nav from '@/partials/Nav';
 
     export default {
-        name: 'Home',
+        name: 'Panels',
 
         components: {
             Nav
