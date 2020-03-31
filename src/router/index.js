@@ -11,15 +11,20 @@ const routes = [
     component: Home
   },
   {
+    path: '/installation',
+    name: 'Installation',
+    component: () => import(/* webpackChunkName: "installation" */ '../views/Installation')
+  },
+  {
     path: '/headings',
     name: 'Headings',
-    component: () => import(/* webpackChunkName: "headings" */ '../views/Headings.vue')
+    component: () => import(/* webpackChunkName: "headings" */ '../views/Headings')
   },
   {
     path: '/panels',
     name: 'Panels',
-    component: () => import(/* webpackChunkName: "panels" */ '../views/Panels.vue')
-  }
+    component: () => import(/* webpackChunkName: "panels" */ '../views/Panels')
+  },
 ]
 
 const router = new VueRouter({

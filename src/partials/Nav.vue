@@ -3,16 +3,29 @@
 </template>
 
 <script>
+    const items = [
+        { label: 'Home', routerLink: '/' },
+        {
+            label: 'Getting Started',
+            items: [
+                { label: 'Installation', routerLink: '/installation' },
+            ]
+        },
+        {
+            label: 'Components',
+            items: [
+                { label: 'Headings', routerLink: '/headings' },
+                { label: 'Panels', routerLink: '/panels' },
+            ]
+        },
+    ];
+
     export default {
         name: 'Nav',
 
         data() {
             return {
-                items: [
-                    { label: 'Home' , url: '/'},
-                    { label: 'Headings' , url: '/headings'},
-                    { label: 'Panels' , url: '/panels'},
-                ]
+                items
             };
         },
     };
