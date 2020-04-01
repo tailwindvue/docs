@@ -3,6 +3,6 @@ test:
   phases:
     test:
       commands:
-        - yarn run build
+        - yarn test
   artifacts:
     baseDirectory: tests
