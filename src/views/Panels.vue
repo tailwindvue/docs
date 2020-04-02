@@ -12,13 +12,7 @@
 </template>
 
 <script>
-    import Nav from '@/partials/Nav';
-
     export default {
         name: 'Panels',
-
-        components: {
-            Nav
-        },
     };
 </script>

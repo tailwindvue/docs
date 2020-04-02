@@ -1,23 +1,26 @@
-<template>
-    <div id="app">
-        <tw-app>
-            <template v-slot:sidebar>
-                <Nav/>
-            </template>
+<template id="app">
+    <tw-app>
+        <template v-slot:navbar>
+            <Navbar/>
+        </template>
+        <template v-slot:sidebar>
+            <Sidebar/>
+        </template>
 
-            <router-view/>
-        </tw-app>
-    </div>
+        <router-view/>
+    </tw-app>
 </template>
 
 <script>
-    import Nav from '@/partials/Nav';
+    import Sidebar from './partials/Sidebar';
+    import Navbar from './partials/Navbar';
 
     export default {
         name: 'App',
 
         components: {
-            Nav
+            Sidebar,
+            Navbar
         },
     };
 </script>

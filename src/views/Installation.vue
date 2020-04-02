@@ -9,13 +9,7 @@
 </template>
 
 <script>
-    import Nav from '@/partials/Nav';
-
     export default {
         name: 'Home',
-
-        components: {
-            Nav
-        },
     };
 </script>

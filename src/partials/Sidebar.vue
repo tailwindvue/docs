@@ -1,5 +1,5 @@
 <template>
-    <tw-sidenav :items="items"/>
+    <tw-sidebar :items="items"/>
 </template>
 
 <script>
@@ -21,7 +21,7 @@
     ];
 
     export default {
-        name: 'Nav',
+        name: 'Sidebar',
 
         data() {
             return {
