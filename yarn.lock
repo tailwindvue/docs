@@ -1015,9 +1015,9 @@
     string-width "^2.0.0"
 
 "@tailwindvue/tailwindvue@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@tailwindvue/tailwindvue/-/tailwindvue-0.1.4.tgz#ddd7109327682225a33b67cea354fbc720a1e25f"
-  integrity sha512-2OPf0ULVqUKTVJ7Pmh8HsnEc9WCfpDj8hMbmPv8JDR6sKmaQyNMOx5US4DZh1Bh3z+U3jSf5TVI8x2KTEuWlkQ==
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@tailwindvue/tailwindvue/-/tailwindvue-0.1.6.tgz#ca0644d3cd55a03fffbf33be9b9dc9d56ef831da"
+  integrity sha512-RXPlw4s5S3R1FGiXMVS0o8T4rL1C9Yf9ohYkN5Et00+DZvz42c92y+iuS77eK9C5yo9i2bHzNdA6TDqLPV8T1Q==
   dependencies:
     core-js "^3.6.4"
     deepmerge "^4.2.2"
@@ -3535,9 +3535,9 @@ ejs@^2.6.1:
   integrity sha512-7vmuyh5+kuUyJKePhQfRQBhXV5Ce+RnaeeQArKu1EAMpL3WbgMt5WG6uQZpEVvYSSsxMXRKOewtDk9RaTKXRlA==
 
 electron-to-chromium@^1.3.390:
-  version "1.3.391"
-  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.391.tgz#9b7ee2f387814ad7d37addaafe41c8f4c4498d24"
-  integrity sha512-WOi6loSnDmfICOqGRrgeK7bZeWDAbGjCptDhI5eyJAqSzWfoeRuOOU1rOTZRL29/9AaxTndZB6Uh8YrxRfZJqw==
+  version "1.3.393"
+  resolved "https://registry.yarnpkg.com/electron-to-chromium/-/electron-to-chromium-1.3.393.tgz#d13fa4cbf5065e18451c84465d22aef6aca9a911"
+  integrity sha512-Ko3/VdhZAaMaJBLBFqEJ+M1qMiBI8sJfPY/hSJvDrkB3Do8LJsL9tmXy4w7o9nPXif/jFaZGSlXTQWU8XVsYtg==
 
 elliptic@^6.0.0:
   version "6.5.2"
