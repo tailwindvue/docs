@@ -14,6 +14,6 @@
 
 <script>
     export default {
-        name: 'Panels',
+        name: 'Headings',
     };
 </script>

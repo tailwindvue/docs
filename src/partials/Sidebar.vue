@@ -15,7 +15,7 @@
             label: 'Components',
             items: [
                 { label: 'Headings', routerLink: '/headings' },
-                { label: 'Alert', routerLink: '/alert' },
+                { label: 'Alerts', routerLink: '/alerts' },
                 { label: 'Panels', routerLink: '/panels' },
             ]
         },

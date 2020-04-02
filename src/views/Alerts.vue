@@ -1,6 +1,6 @@
 <template>
     <div>
-        <tw-heading>Alert</tw-heading>
+        <tw-heading>Alerts</tw-heading>
 
         <tw-heading type="h2">Types</tw-heading>
 
@@ -61,7 +61,7 @@
 
 <script>
     export default {
-        name: 'Alert',
+        name: 'Alerts',
 
         data() {
             return {

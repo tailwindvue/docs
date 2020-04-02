@@ -21,9 +21,9 @@ const routes = [
         component: () => import(/* webpackChunkName: "headings" */ '../views/Headings')
     },
     {
-        path: '/alert',
-        name: 'Alert',
-        component: () => import(/* webpackChunkName: "alert" */ '../views/Alert')
+        path: '/alerts',
+        name: 'Alerts',
+        component: () => import(/* webpackChunkName: "alerts" */ '../views/Alerts')
     },
     {
         path: '/panels',
