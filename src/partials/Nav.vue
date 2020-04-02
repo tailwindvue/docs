@@ -1,5 +1,5 @@
 <template>
-    <tw-nav :items="items"/>
+    <tw-sidenav :items="items"/>
 </template>
 
 <script>
