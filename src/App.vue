@@ -1,9 +1,23 @@
 <template>
     <div id="app">
         <tw-app>
-            <div class="container mx-auto">
-                <router-view/>
-            </div>
+            <template v-slot:sidebar>
+                <Nav/>
+            </template>
+
+            <router-view/>
         </tw-app>
     </div>
 </template>
+
+<script>
+    import Nav from '@/partials/Nav';
+
+    export default {
+        name: 'App',
+
+        components: {
+            Nav
+        },
+    };
+</script>

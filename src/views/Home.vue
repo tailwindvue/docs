@@ -1,26 +1,15 @@
 <template>
-    <div class="flex">
-        <div class="w-1/5">
-            <Nav/>
-        </div>
-        <div class="w-4/5">
-            <tw-heading>Tailwind Vue</tw-heading>
+    <div>
+        <tw-heading>Tailwind Vue</tw-heading>
 
-            <p>
-                Welcome to Tailwind Vue - a Vue JS component library made to speed up development.
-            </p>
-        </div>
+        <p>
+            Welcome to Tailwind Vue - a Vue JS component library made to speed up development.
+        </p>
     </div>
 </template>
 
 <script>
-    import Nav from '@/partials/Nav';
-
     export default {
         name: 'Home',
-
-        components: {
-            Nav
-        },
     };
 </script>
