@@ -3,7 +3,7 @@
         <tw-heading>Tailwind Vue</tw-heading>
 
         <p>
-            Welcome to Tailwind Vue, component library made with VueJS and TailwindCSS to speed up your development.
+            Welcome to Tailwind Vue, component library made with VueJS and Tailwind CSS to speed up your development.
         </p>
 
         <tw-alert class="mt-4" type="warning">
