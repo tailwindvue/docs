@@ -1,6 +1,6 @@
 <template id="app">
     <tw-app>
-        <template v-slot:navbar>
+        <template v-slot:header>
             <Navbar/>
         </template>
         <template v-slot:sidebar>
