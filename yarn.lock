@@ -1015,9 +1015,9 @@
     string-width "^2.0.0"
 
 "@tailwindvue/tailwindvue@^0.1.4":
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/@tailwindvue/tailwindvue/-/tailwindvue-0.1.8.tgz#8a39d7287bcbbadd6891bd9bb60112d537757b24"
-  integrity sha512-4Vjx5UAZjOGpo6ktxIGf6KakBJNHo6jQQPlmqgyr7gRlorLKKArhQw3lXx4fvyvUGG3J6CxxW0/TRaFGEYow1g==
+  version "0.1.9"
+  resolved "https://registry.yarnpkg.com/@tailwindvue/tailwindvue/-/tailwindvue-0.1.9.tgz#fdf2384f45c575a431b11d0c5699ee422acf267b"
+  integrity sha512-wcGGEerf+26oqh2jXdFO/qcj3uQviAmKkSgtOXyQX2IRvfSuK2W2Fp153UabyuIM87AkMdTtwU/qf0FeL350Kg==
   dependencies:
     babel-plugin-prismjs "^2.0.1"
     core-js "^3.6.4"
