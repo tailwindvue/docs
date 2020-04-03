@@ -8,6 +8,7 @@
         {
             label: 'Getting Started',
             items: [
+                { label: 'Requirements', routerLink: '/requirements' },
                 { label: 'Installation', routerLink: '/installation' },
             ]
         },
