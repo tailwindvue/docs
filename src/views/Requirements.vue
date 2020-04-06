@@ -35,8 +35,8 @@
         </p>
 
         <ul class="mt-4 ml-4 list-disc">
-            <li>Add the <code>h-full</code> class to the <code>html</code> tag.</li>
-            <li>Add the <code>h-full</code> class to the <code>body</code> tag.</li>
+            <li>Add the <code>min-h-screen</code> class to the <code>html</code> tag.</li>
+            <li>Add the <code>min-h-screen</code> class to the <code>body</code> tag.</li>
         </ul>
     </div>
 </template>
