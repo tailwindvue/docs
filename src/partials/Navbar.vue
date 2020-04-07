@@ -3,7 +3,7 @@
         <template v-slot:left>
             <div class="flex items-baseline text-gray-900">
                 <router-link to="/">
-                    <img class="h-6" src="../assets/logo.svg" alt="TailwindVue Logo">
+                    <img class="h-6" src="../assets/images/logo.svg" alt="TailwindVue Logo">
                 </router-link>
             </div>
         </template>
