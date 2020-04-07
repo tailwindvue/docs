@@ -33,7 +33,7 @@
         <tw-code class="mt-4" language="javascript" caption="Import individual components">
             <pre>
                 import Vue from 'vue';
-                import {Heading, Panel} from '@tailwindvue/tailwindvue';
+                import { Heading, Panel } from '@tailwindvue/tailwindvue';
 
                 // Add some components
                 Vue.use(Heading);
