@@ -12,7 +12,8 @@
         </div>
 
         <tw-alert class="mt-4" type="info">
-            <strong>Tailwind CSS not come bundled with Tailwind Vue</strong> in order to reduce the size of the
+            <template v-slot:icon><i class="fas fa-lg fa-lightbulb"></i></template>
+            <strong>Tailwind CSS is bundled with Tailwind Vue</strong> in order to reduce the size of the
             TailwindVue package and to better allow you full control over tailwind configuration.
         </tw-alert>
 

@@ -13,7 +13,7 @@
         You can use a slot called icon to add an icon to your alert.
 
         <tw-alert class="mt-4">
-            <template v-slot:icon><i class="fas fa-pencil"></i></template>
+            <template v-slot:icon><i class="fas fa-lg fa-pencil"></i></template>
             An alert with an icon.
         </tw-alert>
 
