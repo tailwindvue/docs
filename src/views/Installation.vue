@@ -40,6 +40,13 @@
                 Vue.use(Panel);
             </pre>
         </tw-code>
+
+        <hr class="mt-8">
+        <div class="mt-4">
+            <router-link to="/requirements">
+                <i class="fas fa-arrow-left fa-fw"></i> Requirements
+            </router-link>
+        </div>
     </div>
 </template>
 

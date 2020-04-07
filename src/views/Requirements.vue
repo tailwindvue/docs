@@ -38,6 +38,14 @@
             <li>Add the <code>min-h-screen</code> class to the <code>html</code> tag.</li>
             <li>Add the <code>min-h-screen</code> class to the <code>body</code> tag.</li>
         </ul>
+
+        <hr class="mt-8">
+        <div class="text-right mt-4">
+            <router-link to="/installation">
+                Installation <i class="fas fa-arrow-right fa-fw"></i>
+            </router-link>
+        </div>
+
     </div>
 </template>
 
