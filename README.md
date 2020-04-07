@@ -1,6 +1,8 @@
-# docs
+# Tailwind Vue Documentation
 
-## Project setup
+![TailwindVue Banner](https://public.tailwindvue.com/images/banners/github.png)
+
+## Setup
 ```
 yarn install
 ```
@@ -14,11 +16,3 @@ yarn serve
 ```
 yarn build
 ```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
