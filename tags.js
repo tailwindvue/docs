@@ -1,0 +1,28 @@
+import Vue from 'vue';
+import App from '@tailwindvue/tailwindvue/src/components/layout/App';
+import Sidebar from '@tailwindvue/tailwindvue/src/components/Sidebar';
+import Heading from '@tailwindvue/tailwindvue/src/components/Heading';
+import Panel from '@tailwindvue/tailwindvue/src/components/Panel';
+import Input from '@tailwindvue/tailwindvue/src/components/Input';
+import Navbar from '@tailwindvue/tailwindvue/src/components/Navbar';
+import Alert from '@tailwindvue/tailwindvue/src/components/Alert';
+import Code from '@tailwindvue/tailwindvue/src/components/Code';
+import CodeDemo from '@tailwindvue/tailwindvue/src/components/CodeDemo';
+import TabbedCodeDemo from '@tailwindvue/tailwindvue/src/components/TabbedCodeDemo';
+import Tabs from '@tailwindvue/tailwindvue/src/components/Tabs';
+import Tab from '@tailwindvue/tailwindvue/src/components/Tab';
+import Table from '@tailwindvue/tailwindvue/src/components/Table';
+
+Vue.component('tw-app', App);
+Vue.component('tw-sidebar', Sidebar);
+Vue.component('tw-heading', Heading);
+Vue.component('tw-panel', Panel);
+Vue.component('tw-input', Input);
+Vue.component('tw-navbar', Navbar);
+Vue.component('tw-alert', Alert);
+Vue.component('tw-code', Code);
+Vue.component('tw-code-demo', CodeDemo);
+Vue.component('tw-tabbed-code-demo', TabbedCodeDemo);
+Vue.component('tw-tabs', Tabs);
+Vue.component('tw-tab', Tab);
+Vue.component('tw-table', Table);
