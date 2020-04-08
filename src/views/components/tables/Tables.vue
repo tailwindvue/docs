@@ -1,6 +1,6 @@
 <template>
     <div>
-        <tw-heading>Table</tw-heading>
+        <tw-heading>Tables</tw-heading>
         <tw-table :items="details"/>
 
         <tw-heading type="h2">Basic Usage</tw-heading>
@@ -15,7 +15,7 @@
 </template>
 
 <script>
-    import TableBasicExample from './TableBasicExample';
+    import TableBasicExample from './TablesBasicExample';
 
     export default {
         name: 'Table',

@@ -1,6 +1,6 @@
 <template>
     <div>
-        <tw-heading text="Table"/>
+        <tw-heading text="Headings"/>
 
         <!-- Introduction -->
 

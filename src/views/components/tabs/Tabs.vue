@@ -12,6 +12,6 @@
 
 <script>
     export default {
-        name: 'Panels',
+        name: 'Tabs',
     };
 </script>
