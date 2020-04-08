@@ -15,12 +15,12 @@
         {
             label: 'Components',
             items: [
-                { label: 'Headings', routerLink: '/headings' },
                 { label: 'Alerts', routerLink: '/alerts' },
-                { label: 'Panels', routerLink: '/panels' },
-                { label: 'Tabs', routerLink: '/tabs' },
-                { label: 'Table', routerLink: '/table' },
                 { label: 'Badge', routerLink: '/badge' },
+                { label: 'Headings', routerLink: '/headings' },
+                { label: 'Panels', routerLink: '/panels' },
+                { label: 'Table', routerLink: '/table' },
+                { label: 'Tabs', routerLink: '/tabs' },
             ]
         },
     ];
