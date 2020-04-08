@@ -3,25 +3,18 @@
 </template>
 
 <script>
+    import GettingStarted from '../router/getting-started';
+    import Components from '../router/components';
+
     const items = [
-        { label: 'Home', routerLink: '/' },
+        { name: 'Home', path: '/' },
         {
-            label: 'Getting Started',
-            items: [
-                { label: 'Requirements', routerLink: '/requirements' },
-                { label: 'Installation', routerLink: '/installation' },
-            ]
+            name: 'Getting Started',
+            items: GettingStarted
         },
         {
-            label: 'Components',
-            items: [
-                { label: 'Alerts', routerLink: '/alerts' },
-                { label: 'Badge', routerLink: '/badge' },
-                { label: 'Headings', routerLink: '/headings' },
-                { label: 'Panels', routerLink: '/panels' },
-                { label: 'Table', routerLink: '/table' },
-                { label: 'Tabs', routerLink: '/tabs' },
-            ]
+            name: 'Components',
+            items: Components
         },
     ];
 
