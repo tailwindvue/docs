@@ -36,6 +36,11 @@ const routes = [
         component: () => import(/* webpackChunkName: "table" */ '../views/table/Table')
     },
     {
+        path: '/badge',
+        name: 'Badge',
+        component: () => import(/* webpackChunkName: "badge" */ '../views/badge/Badge')
+    },
+    {
         path: '/tabs',
         name: 'Tabs',
         component: () => import(/* webpackChunkName: "tabs" */ '../views/tabs/Tabs')

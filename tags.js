@@ -12,6 +12,7 @@ import TabbedCodeDemo from '@tailwindvue/tailwindvue/src/components/TabbedCodeDe
 import Tabs from '@tailwindvue/tailwindvue/src/components/Tabs';
 import Tab from '@tailwindvue/tailwindvue/src/components/Tab';
 import Table from '@tailwindvue/tailwindvue/src/components/Table';
+import Badge from '@tailwindvue/tailwindvue/src/components/Badge';
 
 Vue.component('tw-app', App);
 Vue.component('tw-sidebar', Sidebar);
@@ -26,3 +27,4 @@ Vue.component('tw-tabbed-code-demo', TabbedCodeDemo);
 Vue.component('tw-tabs', Tabs);
 Vue.component('tw-tab', Tab);
 Vue.component('tw-table', Table);
+Vue.component('tw-badge', Badge);

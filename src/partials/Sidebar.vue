@@ -20,6 +20,7 @@
                 { label: 'Panels', routerLink: '/panels' },
                 { label: 'Tabs', routerLink: '/tabs' },
                 { label: 'Table', routerLink: '/table' },
+                { label: 'Badge', routerLink: '/badge' },
             ]
         },
     ];
