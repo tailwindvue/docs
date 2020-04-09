@@ -38,16 +38,19 @@
             This alert will disappear after 3 seconds after you start the demo.
         </tw-alert>
 
+        <ThemeClasses component="alert"/>
     </div>
 </template>
 
 <script>
     import AlertsDemo from './AlertsDemo';
+    import ThemeClasses from '../../../components/ThemeClasses';
 
     export default {
         name: 'Alerts',
 
         components: {
+            ThemeClasses,
             AlertsDemo
         },
 
