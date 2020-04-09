@@ -1,10 +1,6 @@
 module.exports = {
   theme: {
-    extend: {
-      inset: {
-        '8': '2rem',
-      }
-    },
+    extend: {},
   },
   variants: {
     borderWidth: ['responsive', 'first', 'hover', 'focus'],
