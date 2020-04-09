@@ -1,8 +1,8 @@
 <template>
     <div>
-        <tw-heading>Alerts</tw-heading>
+        <tw-heading text="Alerts"/>
 
-        <tw-heading type="h2">Types</tw-heading>
+        <tw-heading id="types" type="h2" text="Types" />
 
         You can choose from a number of different alert types.
 
@@ -29,7 +29,7 @@
             <span @click="showAlert($refs.dismissable)">Bring the alert back.</span>
         </div>
 
-        <tw-heading type="h2">Self-Hiding Alerts</tw-heading>
+        <tw-heading id="self-hiding" type="h2" text="Self-Hiding Alerts"/>
 
         <div v-if="alertSelfHidden" @click="showAlert($refs.selfHidden)">Bring the alert back.</div>
         <div v-else @click="duration=3">Start the demo</div>

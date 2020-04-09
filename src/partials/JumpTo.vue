@@ -7,7 +7,7 @@
              :to="heading.anchor"
              v-for="heading in headings"
              @click="scrollIntoView(heading)">
-            {{ heading.innerText }}
+            {{ getLabel(heading) }}
         </div>
     </div>
 </template>
@@ -33,14 +33,16 @@
         },
 
         methods: {
+            getLabel(heading) {
+                return heading.innerText.replace('#', '');
+            },
+
             updateHeadings() {
                 this.headings = Array.from(document.querySelectorAll('*[id]'));
             },
 
-            scrollIntoView(heading) {
-                heading.scrollIntoView({
-                    behavior: 'smooth'
-                });
+            async scrollIntoView(heading) {
+                await heading.scrollIntoView({ behavior: 'smooth' });
             }
         },
     };

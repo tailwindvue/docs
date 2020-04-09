@@ -1,18 +1,18 @@
 <template>
     <div>
-        <tw-heading type="h2" text="Theme"/>
+        <tw-heading id="theme" type="h2" text="Theme"/>
         <tw-table>
             <template #header>
                 <tw-table-heading>Key</tw-table-heading>
                 <tw-table-heading>Classes</tw-table-heading>
             </template>
 
-            <tw-table-row v-for="(componentClasses, name) in flattenedTheme[component]">
+            <tw-table-row v-for="(componentClasses, name) in flattenedTheme[component]" :key="name">
                 <tw-table-column>
                     {{ name }}
                 </tw-table-column>
                 <tw-table-column>
-                    <tw-badge class="mr-2 my-1" v-for="item in componentClasses.split(' ')" :text="item"/>
+                    <tw-badge class="mr-2 my-1" v-for="item in componentClasses.split(' ')" :text="item" :key="item"/>
                 </tw-table-column>
             </tw-table-row>
         </tw-table>
