@@ -3,8 +3,7 @@
         <tw-heading>Tables</tw-heading>
         <tw-table :items="details"/>
 
-        <tw-heading type="h2">Basic Usage</tw-heading>
-        <TableBasicExample/>
+        <TableBasicUsage/>
 
         <tw-heading type="h2">Props</tw-heading>
         <tw-table :items="props"/>
@@ -15,13 +14,13 @@
 </template>
 
 <script>
-    import TableBasicExample from './TablesBasicExample';
+    import TableBasicUsage from './TablesBasicUsage';
 
     export default {
         name: 'Table',
 
         components: {
-            TableBasicExample,
+            TableBasicUsage,
         },
 
         data() {
