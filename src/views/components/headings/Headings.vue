@@ -43,16 +43,20 @@
 
         <tw-heading type="h2" text="Props"/>
         <tw-table :items="props"/>
+
+        <ThemeClasses component="heading"/>
     </div>
 </template>
 
 <script>
     import HeadingsDemo from './HeadingsDemo';
+    import ThemeClasses from '../../../components/ThemeClasses';
 
     export default {
         name: 'Headings',
 
         components: {
+            ThemeClasses,
             HeadingsDemo
         },
 
