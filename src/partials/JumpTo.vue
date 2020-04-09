@@ -1,5 +1,5 @@
 <template>
-    <div v-if="headings.length" class="fixed w-1/6 text-right">
+    <div v-if="headings.length" class="fixed w-64 text-right">
         <div class="block uppercase mt-4 text-sm text-gray-500 font-medium">
             Jump To
         </div>
