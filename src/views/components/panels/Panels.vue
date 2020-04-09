@@ -8,11 +8,16 @@
 
             Bla Bla
         </tw-panel>
+
+        <ThemeClasses component="panel"/>
     </div>
 </template>
 
 <script>
+    import ThemeClasses from '../../../components/ThemeClasses';
+
     export default {
         name: 'Panels',
+        components: { ThemeClasses },
     };
 </script>

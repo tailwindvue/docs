@@ -6,35 +6,10 @@ import Tables from '../views/components/tables/Tables';
 import Tabs from '../views/components/tabs/Tabs';
 
 export default [
-    {
-        path: '/alerts',
-        name: 'Alerts',
-        component: Alerts
-    },
-    {
-        path: '/headings',
-        name: 'Headings',
-        component: Headings
-    },
-
-    {
-        path: '/tables',
-        name: 'Tables',
-        component: Tables
-    },
-    {
-        path: '/badges',
-        name: 'Badges',
-        component: Badges
-    },
-    {
-        path: '/tabs',
-        name: 'Tabs',
-        component: Tabs
-    },
-    {
-        path: '/panels',
-        name: 'Panels',
-        component: Panel
-    },
+    { path: '/alerts', name: 'Alerts', component: Alerts },
+    { path: '/badges', name: 'Badges', component: Badges },
+    { path: '/headings', name: 'Headings', component: Headings },
+    { path: '/panels', name: 'Panels', component: Panel },
+    { path: '/tables', name: 'Tables', component: Tables },
+    { path: '/tabs', name: 'Tabs', component: Tabs },
 ];
