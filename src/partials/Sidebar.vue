@@ -1,5 +1,5 @@
 <template>
-    <tw-sidebar :items="items"/>
+    <tw-sidebar class="sticky top-0 pt-5" :items="items"/>
 </template>
 
 <script>
