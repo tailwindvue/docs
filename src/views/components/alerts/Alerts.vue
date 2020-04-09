@@ -2,6 +2,9 @@
     <div>
         <tw-heading text="Alerts"/>
 
+        <AlertsIntroduction/>
+        <AlertsBasicUsage/>
+
         <tw-heading id="types" type="h2" text="Types" />
 
         You can choose from a number of different alert types.
@@ -45,11 +48,15 @@
 <script>
     import AlertsDemo from './AlertsDemo';
     import ThemeClasses from '../../../components/ThemeClasses';
+    import AlertsBasicUsage from './AlertsBasicUsage';
+    import AlertsIntroduction from './AlertsIntroduction';
 
     export default {
         name: 'Alerts',
 
         components: {
+            AlertsIntroduction,
+            AlertsBasicUsage,
             ThemeClasses,
             AlertsDemo
         },

@@ -1,5 +1,5 @@
 <template id="app">
-    <tw-app>
+    <tw-app id="top">
         <template #header>
             <Navbar/>
         </template>

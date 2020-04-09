@@ -13,6 +13,8 @@
 </template>
 
 <script>
+    import { startCase } from 'lodash';
+
     export default {
         name: 'JumpTo',
 
@@ -34,11 +36,15 @@
 
         methods: {
             getLabel(heading) {
-                return heading.innerText.replace('#', '');
+                return startCase(heading.getAttribute('id').replace('-', ' '));
             },
 
             updateHeadings() {
                 this.headings = Array.from(document.querySelectorAll('*[id]'));
+            },
+
+            scrollToTop() {
+                this.scrollIntoView(document.getElementById('#top'));
             },
 
             async scrollIntoView(heading) {
