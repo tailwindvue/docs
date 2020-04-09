@@ -1,10 +1,13 @@
 <template id="app">
     <tw-app>
-        <template v-slot:header>
+        <template #header>
             <Navbar/>
         </template>
-        <template v-slot:sidebar>
+        <template #left>
             <Sidebar/>
+        </template>
+        <template #right>
+            <Headings/>
         </template>
 
         <router-view/>
@@ -14,11 +17,13 @@
 <script>
     import Sidebar from './partials/Sidebar';
     import Navbar from './partials/Navbar';
+    import Headings from './partials/JumpTo';
 
     export default {
         name: 'App',
 
         components: {
+            Headings,
             Sidebar,
             Navbar
         },
