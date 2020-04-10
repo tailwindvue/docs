@@ -1,5 +1,5 @@
 <template>
-    <tw-content>
+    <tw-content v-if="theme">
         <tw-heading id="theme" type="h2" text="Theme"/>
         <tw-table>
             <template #header>
@@ -7,12 +7,12 @@
                 <tw-table-heading>Classes</tw-table-heading>
             </template>
 
-            <tw-table-row v-for="(componentClasses, name) in flattenedTheme[component]" :key="name">
+            <tw-table-row v-for="(classes, key) in theme" :key="key">
                 <tw-table-column>
-                    {{ name }}
+                    {{ key }}
                 </tw-table-column>
                 <tw-table-column>
-                    <tw-badge class="mr-2 my-1" v-for="item in componentClasses.split(' ')" :text="item" :key="item"/>
+                    <tw-badge class="mr-2 my-1" v-for="oneClass in classes" :text="oneClass" :key="oneClass"/>
                 </tw-table-column>
             </tw-table-row>
         </tw-table>
@@ -20,31 +20,14 @@
 </template>
 
 <script>
-    import theme from '@tailwindvue/tailwindvue/src/stubs/theme';
+    import { Theme } from '@tailwindvue/tailwindvue';
+    import { forEach } from 'lodash';
 
     export default {
         name: 'ThemeClasses',
 
-        computed: {
-            flattenedTheme() {
-                for (let [componentName, component] of Object.entries(this.theme)) {
-                    for (let [key, classes] of Object.entries(component)) {
-                        if (!classes.length) {
-                            this.theme[componentName][key] = 'None';
-                        }
-
-                        if (typeof classes === 'object') {
-                            delete this.theme[componentName][key];
-
-                            for (let [classesKey, classesValue] of Object.entries(classes)) {
-                                this.theme[componentName][key + ' / ' + classesKey] = classesValue;
-                            }
-                        }
-                    }
-                }
-
-                return this.theme;
-            },
+        created() {
+            this.getClasses(Theme[this.component]);
         },
 
         props: {
@@ -56,8 +39,18 @@
 
         data() {
             return {
-                theme
+                theme: {},
             };
+        },
+
+        methods: {
+            getClasses(object, prefix = null) {
+                forEach(object, (value, key) => {
+                    return typeof value === 'object'
+                        ? this.getClasses(value, key)
+                        : this.theme[(prefix ? prefix + '.' + key : key)] = value.split(' ');
+                });
+            }
         },
     };
 </script>
