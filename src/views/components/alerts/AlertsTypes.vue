@@ -1,5 +1,10 @@
 <template>
-    <div>
+    <tw-content>
+
+        <tw-heading id="types" type="h2" text="Types" />
+
+        <p>You can choose from a number of different alert types.</p>
+
         <tw-tabbed-code-demo>
             <tw-tab name="Default">
                 <tw-code-demo language="vuejs" caption="Default Alert">
@@ -7,7 +12,7 @@
                         A <strong>default</strong> alert.
                     </tw-alert>
 
-                    <template v-slot:code>
+                    <template #code>
                         {{ defaultAlert }}
                     </template>
                 </tw-code-demo>
@@ -19,7 +24,7 @@
                         An <strong>info</strong> alert.
                     </tw-alert>
 
-                    <template v-slot:code>
+                    <template #code>
                         {{ infoAlert }}
                     </template>
                 </tw-code-demo>
@@ -31,7 +36,7 @@
                         A <strong>warning</strong> alert.
                     </tw-alert>
 
-                    <template v-slot:code>
+                    <template #code>
                         {{ warningAlert }}
                     </template>
                 </tw-code-demo>
@@ -43,7 +48,7 @@
                         A <strong>danger</strong> alert.
                     </tw-alert>
 
-                    <template v-slot:code>
+                    <template #code>
                         {{ dangerAlert }}
                     </template>
                 </tw-code-demo>
@@ -55,7 +60,7 @@
                         A <strong>success</strong> alert.
                     </tw-alert>
 
-                    <template v-slot:code>
+                    <template #code>
                         {{ successAlert }}
                     </template>
                 </tw-code-demo>
@@ -83,7 +88,7 @@
                         A <strong>success</strong> alert.
                     </tw-alert>
 
-                    <template v-slot:code>
+                    <template #code>
                         {{ defaultAlert }}
                         {{ infoAlert }}
                         {{ warningAlert }}
@@ -93,12 +98,13 @@
                 </tw-code-demo>
             </tw-tab>
         </tw-tabbed-code-demo>
-    </div>
+
+    </tw-content>
 </template>
 
 <script>
     export default {
-        name: 'AlertsDemo',
+        name: 'AlertsTypes',
 
         data() {
             return {
@@ -133,7 +139,5 @@
                 `,
             };
         },
-
-
     };
 </script>

@@ -4,77 +4,31 @@
 
         <AlertsIntroduction/>
         <AlertsBasicUsage/>
-
-        <tw-heading id="types" type="h2" text="Types" />
-
-        <p>You can choose from a number of different alert types.</p>
-
-        <AlertsDemo/>
-
-        <tw-heading type="h2">Icons</tw-heading>
-
-        <p>You can use a slot called icon to add an icon to your alert.</p>
-
-        <tw-alert>
-            <template v-slot:icon><i class="fas fa-lg fa-pencil"></i></template>
-            An alert with an icon.
-        </tw-alert>
-
-        <tw-heading type="h2">Dismissable Alerts</tw-heading>
-
-        <tw-alert ref="dismissable" :dismissable="true" @dismissed="alertDismissed=!alertDismissed">
-            You can dismiss this alert by clicking the button on the right <i class="fas fa-fw fa-arrow-right"></i>
-        </tw-alert>
-
-        <div v-if="alertDismissed">
-            You can take action when an alert is dismissed by listening for a dismissed event.
-
-            <span @click="showAlert($refs.dismissable)">Bring the alert back.</span>
-        </div>
-
-        <tw-heading id="self-hiding" type="h2" text="Self-Hiding Alerts"/>
-
-        <div v-if="alertSelfHidden" @click="showAlert($refs.selfHidden)">Bring the alert back.</div>
-        <div v-else @click="duration=3">Start the demo</div>
-
-        <tw-alert ref="selfHidden" :duration="duration" @dismissed="alertSelfHidden=!alertSelfHidden">
-            This alert will disappear after 3 seconds after you start the demo.
-        </tw-alert>
-
+        <AlertsTypes/>
+        <AlertsIcons/>
+        <AlertsProps/>
         <ThemeClasses component="alert"/>
     </tw-content>
 </template>
 
 <script>
-    import AlertsDemo from './AlertsDemo';
+    import AlertsTypes from './AlertsTypes';
     import ThemeClasses from '../../../components/ThemeClasses';
     import AlertsBasicUsage from './AlertsBasicUsage';
     import AlertsIntroduction from './AlertsIntroduction';
+    import AlertsIcons from './AlertsIcons';
+    import AlertsProps from './AlertsProps';
 
     export default {
         name: 'Alerts',
 
         components: {
+            AlertsProps,
+            AlertsIcons,
             AlertsIntroduction,
             AlertsBasicUsage,
             ThemeClasses,
-            AlertsDemo
-        },
-
-        data() {
-            return {
-                alertDismissed: false,
-                alertSelfHidden: false,
-                duration: false,
-            };
-        },
-
-        methods: {
-            showAlert(alert) {
-                this.alertDismissed = false;
-                this.alertSelfHidden = false;
-                alert.$data.visible = true;
-            }
+            AlertsTypes
         },
     };
 </script>

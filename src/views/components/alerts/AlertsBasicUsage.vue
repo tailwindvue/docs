@@ -1,17 +1,19 @@
 <template>
-    <div>
-        <tw-heading type="h2" text="Basic Usage"/>
+    <tw-content>
+
+        <tw-heading id="basic-usage" type="h2" text="Basic Usage"/>
 
         <tw-code-demo language="vuejs" caption="Basic alert usage">
             <tw-alert>
                 A basic alert.
             </tw-alert>
 
-            <template v-slot:code>
+            <template #code>
                 {{ basicAlert }}
             </template>
         </tw-code-demo>
-    </div>
+
+    </tw-content>
 </template>
 
 <script>

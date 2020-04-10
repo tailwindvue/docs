@@ -1,5 +1,7 @@
 <template>
-    <div>
+    <tw-content>
+        <tw-heading id="types" type="h2" text="Types"/>
+
         <tw-tabbed-code-demo>
             <tw-tab name="H1">
                 <tw-code-demo language="vuejs" caption="H1">
@@ -7,7 +9,7 @@
                         Heading One
                     </tw-heading>
 
-                    <template v-slot:code>
+                    <template #code>
                         {{ h1 }}
                     </template>
                 </tw-code-demo>
@@ -19,7 +21,7 @@
                         Heading Two
                     </tw-heading>
 
-                    <template v-slot:code>
+                    <template #code>
                         {{ h2 }}
                     </template>
                 </tw-code-demo>
@@ -31,7 +33,7 @@
                         Heading Three
                     </tw-heading>
 
-                    <template v-slot:code>
+                    <template #code>
                         {{ h3 }}
                     </template>
                 </tw-code-demo>
@@ -43,7 +45,7 @@
                         Heading Four
                     </tw-heading>
 
-                    <template v-slot:code>
+                    <template #code>
                         {{ h4 }}
                     </template>
                 </tw-code-demo>
@@ -55,7 +57,7 @@
                         Heading Five
                     </tw-heading>
 
-                    <template v-slot:code>
+                    <template #code>
                         {{ h5 }}
                     </template>
                 </tw-code-demo>
@@ -67,7 +69,7 @@
                         Heading Six
                     </tw-heading>
 
-                    <template v-slot:code>
+                    <template #code>
                         {{ h6 }}
                     </template>
                 </tw-code-demo>
@@ -83,7 +85,7 @@
                     <tw-heading type="h5">Heading Five</tw-heading>
                     <tw-heading type="h6">Heading Five</tw-heading>
 
-                    <template v-slot:code>
+                    <template #code>
                         {{ h1 }}
                         {{ h2 }}
                         {{ h3 }}
@@ -94,12 +96,12 @@
                 </tw-code-demo>
             </tw-tab>
         </tw-tabbed-code-demo>
-    </div>
+    </tw-content>
 </template>
 
 <script>
     export default {
-        name: 'HeadingsDemo',
+        name: 'HeadingsTypes',
 
         data() {
             return {

@@ -1,13 +1,14 @@
 <template>
-    <div>
-        <tw-heading type="h2" text="Types"/>
+    <tw-content>
+
+        <tw-heading id="types" type="h2" text="Types"/>
 
         <tw-tabbed-code-demo>
             <tw-tab name="Default">
                 <tw-code-demo language="vuejs" caption="Default Badge">
                     <tw-badge text="Badge"/>
 
-                    <template v-slot:code>
+                    <template #code>
                         {{ defaultBadge }}
                     </template>
                 </tw-code-demo>
@@ -17,7 +18,7 @@
                 <tw-code-demo language="vuejs" caption="Info Badge">
                     <tw-badge type="info" text="Badge"/>
 
-                    <template v-slot:code>
+                    <template #code>
                         {{ infoBadge }}
                     </template>
                 </tw-code-demo>
@@ -27,7 +28,7 @@
                 <tw-code-demo language="vuejs" caption="Warning Badge">
                     <tw-badge type="warning" text="Badge"/>
 
-                    <template v-slot:code>
+                    <template #code>
                         {{ warningBadge }}
                     </template>
                 </tw-code-demo>
@@ -37,7 +38,7 @@
                 <tw-code-demo language="vuejs" caption="Danger Badge">
                     <tw-badge type="danger" text="Badge"/>
 
-                    <template v-slot:code>
+                    <template #code>
                         {{ dangerBadge }}
                     </template>
                 </tw-code-demo>
@@ -47,7 +48,7 @@
                 <tw-code-demo language="vuejs" caption="Success Badge">
                     <tw-badge type="success" text="Badge"/>
 
-                    <template v-slot:code>
+                    <template #code>
                         {{ successBadge }}
                     </template>
                 </tw-code-demo>
@@ -62,7 +63,7 @@
                     <div class="mb-4"><tw-badge type="danger" text="Badge"/></div>
                     <div class="mb-4"><tw-badge type="success" text="Badge"/></div>
 
-                    <template v-slot:code>
+                    <template #code>
                         {{ defaultBadge }}
                         {{ infoBadge }}
                         {{ warningBadge }}
@@ -72,7 +73,8 @@
                 </tw-code-demo>
             </tw-tab>
         </tw-tabbed-code-demo>
-    </div>
+
+    </tw-content>
 </template>
 
 <script>

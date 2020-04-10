@@ -4,11 +4,11 @@
         <tw-heading id="basic-usage" type="h2" text="Basic Usage"/>
 
         <p>
-            You pass the badge text through the default slot:
+            You pass the heading through the default slot:
         </p>
 
-        <tw-code-demo language="vuejs" caption="Basic badge usage with slot">
-            <tw-badge>Badge</tw-badge>
+        <tw-code-demo language="vuejs" caption="H1">
+            <tw-heading>A heading.</tw-heading>
 
             <template #code>
                 {{ basicUsageSlot }}
@@ -19,8 +19,8 @@
             Or you can use the text prop:
         </p>
 
-        <tw-code-demo language="vuejs" caption="Basic badge usage with text prop">
-            <tw-badge text="badge"/>
+        <tw-code-demo language="vuejs" caption="H1">
+            <tw-heading text="Another Heading"/>
 
             <template #code>
                 {{ basicUsageText }}
@@ -32,16 +32,16 @@
 
 <script>
     export default {
-        name: 'BadgeBasicUsage',
+        name: 'HeadingsBasicUsage',
 
         data() {
             return {
                 basicUsageSlot: `
-                    <tw-badge>Badge</tw-badge>
+                    <tw-heading>Heading One</tw-heading>
                 `,
                 basicUsageText: `
-                    <tw-badge text="Badge"/>
-                `
+                    <tw-heading text="Another Heading"/>
+                `,
             };
         },
     };

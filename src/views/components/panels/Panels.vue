@@ -1,23 +1,27 @@
 <template>
     <tw-content>
+
         <tw-heading>Panels</tw-heading>
-        <tw-panel>
-            <template v-slot:header>
-                Panels
-            </template>
 
-            Bla Bla
-        </tw-panel>
-
+        <PanelsIntroduction/>
+        <PanelsBasicUsage/>
         <ThemeClasses component="panel"/>
+
     </tw-content>
 </template>
 
 <script>
     import ThemeClasses from '../../../components/ThemeClasses';
+    import PanelsIntroduction from './PanelsIntroduction';
+    import PanelsBasicUsage from './PanelsBasicUsage';
 
     export default {
         name: 'Panels',
-        components: { ThemeClasses },
+
+        components: {
+            PanelsBasicUsage,
+            PanelsIntroduction,
+            ThemeClasses
+        },
     };
 </script>

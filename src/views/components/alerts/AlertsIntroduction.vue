@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <tw-content>
         <tw-heading id="introduction" type="h2" text="Introduction"/>
         <p>
             This component renders an alert. There are five default styles for the
@@ -7,7 +7,7 @@
             also display an icon and a button to hide it when it is clicked.
         </p>
         <tw-table :items="details"/>
-    </div>
+    </tw-content>
 </template>
 
 <script>

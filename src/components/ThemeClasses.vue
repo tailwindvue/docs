@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <tw-content>
         <tw-heading id="theme" type="h2" text="Theme"/>
         <tw-table>
             <template #header>
@@ -16,7 +16,7 @@
                 </tw-table-column>
             </tw-table-row>
         </tw-table>
-    </div>
+    </tw-content>
 </template>
 
 <script>

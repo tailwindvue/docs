@@ -4,8 +4,8 @@
         <tw-heading id="introduction" type="h2" text="Introduction"/>
 
         <p>
-            This component will display a badge in one of the configurable styles: default, info, warning, danger and
-            success. Every badge can also be displayed in the sizes predefined here: small, medium and large.
+            The heading component enables you to display text in one of six heading styles. You can set the heading type
+            by passing a type prop. Each heading made semantically correct by adding the appropriate heading tag.
         </p>
 
         <tw-table>
@@ -16,9 +16,9 @@
             </template>
 
             <tw-table-row>
-                <tw-table-column>Badge</tw-table-column>
-                <tw-table-column>Badge.vue</tw-table-column>
-                <tw-table-column>tw-badge</tw-table-column>
+                <tw-table-column>Heading</tw-table-column>
+                <tw-table-column>Heading.vue</tw-table-column>
+                <tw-table-column>tw-heading</tw-table-column>
             </tw-table-row>
         </tw-table>
 
@@ -27,6 +27,6 @@
 
 <script>
     export default {
-        name: 'BadgeIntroduction',
+        name: 'HeadingsIntroduction'
     };
 </script>

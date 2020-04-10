@@ -2,20 +2,24 @@
     <tw-content>
         <tw-heading>Tabs</tw-heading>
 
-        <tw-tabs>
-            <tw-tab name="one">One</tw-tab>
-            <tw-tab name="two" active>Two</tw-tab>
-            <tw-tab name="three">Three</tw-tab>
-        </tw-tabs>
-
+        <TabsIntroduction/>
+        <TabsBasicUsage/>
         <ThemeClasses component="tabs"/>
     </tw-content>
 </template>
 
 <script>
     import ThemeClasses from '../../../components/ThemeClasses';
+    import TabsIntroduction from './TabsIntroduction';
+    import TabsBasicUsage from './TabsBasicUsage';
+
     export default {
         name: 'Tabs',
-        components: { ThemeClasses },
+
+        components: {
+            TabsBasicUsage,
+            TabsIntroduction,
+            ThemeClasses
+        },
     };
 </script>

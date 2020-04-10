@@ -1,6 +1,7 @@
 <template>
     <tw-content>
-        <tw-heading type="h2">Basic Usage</tw-heading>
+
+        <tw-heading id="basic-usage" type="h2" text="Basic Usage"/>
 
         <p>There are two ways to create a table:</p>
 
@@ -15,7 +16,7 @@
         <tw-code-demo language="vuejs" caption="Basic table usage">
             <tw-table :items="items"/>
 
-            <template v-slot:code>
+            <template #code>
                 {{ tableBasicUsageObject }}
             </template>
         </tw-code-demo>
@@ -50,16 +51,17 @@
                 </tw-table-row>
             </tw-table>
 
-            <template v-slot:code>
+            <template #code>
                 {{ tableBasicUsageSlot }}
             </template>
         </tw-code-demo>
+
     </tw-content>
 </template>
 
 <script>
     export default {
-        name: 'TableBasicExample',
+        name: 'TableBasicUsage',
 
         data() {
             return {
