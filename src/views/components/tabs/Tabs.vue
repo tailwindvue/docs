@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <tw-content>
         <tw-heading>Tabs</tw-heading>
 
         <tw-tabs>
@@ -9,7 +9,7 @@
         </tw-tabs>
 
         <ThemeClasses component="tabs"/>
-    </div>
+    </tw-content>
 </template>
 
 <script>

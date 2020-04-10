@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <tw-content>
         <tw-heading>Panels</tw-heading>
         <tw-panel>
             <template v-slot:header>
@@ -10,7 +10,7 @@
         </tw-panel>
 
         <ThemeClasses component="panel"/>
-    </div>
+    </tw-content>
 </template>
 
 <script>

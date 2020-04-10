@@ -8,6 +8,7 @@
     "test": "vue-cli-service test:unit"
   },
   "dependencies": {
+    "@tailwindvue/direct-children-plugin": "^1.0.0",
     "@tailwindvue/tailwindvue": "^0.1.4",
     "core-js": "^3.6.4",
     "tailwindcss": "^1.2.0",

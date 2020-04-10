@@ -2,11 +2,11 @@
     <div>
         <tw-heading type="h2" text="Basic Usage"/>
 
-        <p class="mt-4">
+        <p>
             You pass the badge text through the default slot:
         </p>
 
-        <tw-code-demo class="mt-4" language="vuejs" caption="Basic badge usage with slot">
+        <tw-code-demo language="vuejs" caption="Basic badge usage with slot">
             <tw-badge>Badge</tw-badge>
 
             <template v-slot:code>
@@ -14,11 +14,11 @@
             </template>
         </tw-code-demo>
 
-        <p class="mt-4">
+        <p>
             Or you can use the text prop:
         </p>
 
-        <tw-code-demo class="mt-4" language="vuejs" caption="Basic badge usage with text prop">
+        <tw-code-demo language="vuejs" caption="Basic badge usage with text prop">
             <tw-badge text="badge"/>
 
             <template v-slot:code>

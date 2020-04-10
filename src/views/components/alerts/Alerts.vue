@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <tw-content>
         <tw-heading text="Alerts"/>
 
         <AlertsIntroduction/>
@@ -7,22 +7,22 @@
 
         <tw-heading id="types" type="h2" text="Types" />
 
-        You can choose from a number of different alert types.
+        <p>You can choose from a number of different alert types.</p>
 
         <AlertsDemo/>
 
         <tw-heading type="h2">Icons</tw-heading>
 
-        You can use a slot called icon to add an icon to your alert.
+        <p>You can use a slot called icon to add an icon to your alert.</p>
 
-        <tw-alert class="mt-4">
+        <tw-alert>
             <template v-slot:icon><i class="fas fa-lg fa-pencil"></i></template>
             An alert with an icon.
         </tw-alert>
 
         <tw-heading type="h2">Dismissable Alerts</tw-heading>
 
-        <tw-alert ref="dismissable" class="mt-4" :dismissable="true" @dismissed="alertDismissed=!alertDismissed">
+        <tw-alert ref="dismissable" :dismissable="true" @dismissed="alertDismissed=!alertDismissed">
             You can dismiss this alert by clicking the button on the right <i class="fas fa-fw fa-arrow-right"></i>
         </tw-alert>
 
@@ -37,12 +37,12 @@
         <div v-if="alertSelfHidden" @click="showAlert($refs.selfHidden)">Bring the alert back.</div>
         <div v-else @click="duration=3">Start the demo</div>
 
-        <tw-alert ref="selfHidden" class="mt-4" :duration="duration" @dismissed="alertSelfHidden=!alertSelfHidden">
+        <tw-alert ref="selfHidden" :duration="duration" @dismissed="alertSelfHidden=!alertSelfHidden">
             This alert will disappear after 3 seconds after you start the demo.
         </tw-alert>
 
         <ThemeClasses component="alert"/>
-    </div>
+    </tw-content>
 </template>
 
 <script>

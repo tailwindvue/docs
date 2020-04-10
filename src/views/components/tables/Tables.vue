@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <tw-heading>Tables</tw-heading>
+    <tw-content>
+        <tw-heading text="Tables"/>
         <tw-heading type="h2">Introduction</tw-heading>
         <tw-heading type="h3">Components</tw-heading>
         <tw-table>
@@ -41,7 +41,7 @@
         <tw-table :items="props"/>
 
         <ThemeClasses component="table"/>
-    </div>
+    </tw-content>
 </template>
 
 <script>

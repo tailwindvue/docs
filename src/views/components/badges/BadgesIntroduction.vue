@@ -4,7 +4,7 @@
         <p>
             The badge component allows you to display text in a badge in one of five styles.
         </p>
-        <tw-table class="mt-4" :items="details"/>
+        <tw-table :items="details"/>
     </div>
 </template>
 

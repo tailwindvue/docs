@@ -1,6 +1,6 @@
 <template>
     <div>
-        <tw-tabbed-code-demo class="mt-4">
+        <tw-tabbed-code-demo>
             <tw-tab name="Default">
                 <tw-code-demo language="vuejs" caption="Default Alert">
                     <tw-alert>

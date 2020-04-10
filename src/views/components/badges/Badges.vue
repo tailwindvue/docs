@@ -1,12 +1,12 @@
 <template>
-    <div>
+    <tw-content>
         <tw-heading>Badges</tw-heading>
 
         <BadgesIntroduction/>
         <BadgesBasicUsage/>
         <BadgesTypes/>
         <ThemeClasses component="badge"/>
-    </div>
+    </tw-content>
 </template>
 
 <script>

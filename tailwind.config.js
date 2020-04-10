@@ -3,7 +3,10 @@ module.exports = {
     extend: {},
   },
   variants: {
+    margin: ['direct-children', 'default', 'responsive'],
     borderWidth: ['responsive', 'first', 'hover', 'focus'],
   },
-  plugins: [],
+  plugins: [
+    require('@tailwindvue/direct-children-plugin'),
+  ]
 }

@@ -6,7 +6,7 @@
             alert component: default, danger, info, warning and success. It can
             also display an icon and a button to hide it when it is clicked.
         </p>
-        <tw-table class="mt-4" :items="details"/>
+        <tw-table :items="details"/>
     </div>
 </template>
 
