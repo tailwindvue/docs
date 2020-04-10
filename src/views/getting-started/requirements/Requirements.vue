@@ -1,23 +1,20 @@
 <template>
-    <div>
+    <tw-content>
         <tw-heading>Requirements</tw-heading>
 
         <p>
             Before you begin, let's review a list of requirements that you will need to make use of TailwindVue.
         </p>
 
-        <div class="mt-4">
-            <span class="h-6 w-6 leading-relaxed mr-1 text-sm bg-green-800 text-white rounded-full inline-block text-center">1</span>
-            Install Tailwind CSS
-        </div>
+        <tw-heading type="h3" text="Install Tailwind CSS" number="1"/>
 
-        <tw-alert class="mt-4" type="info">
+        <tw-alert type="info">
             <template v-slot:icon><i class="fas fa-lg fa-lightbulb"></i></template>
             <strong>Tailwind CSS is bundled with Tailwind Vue</strong> in order to reduce the size of the
             TailwindVue package and to better allow you full control over tailwind configuration.
         </tw-alert>
 
-        <p class="mt-4">
+        <p>
             Make sure Tailwind CSS is installed in your application by following the great instructions available in the
             Tailwind CSS documentation:
             <a class="block mt-4 underline" href="https://tailwindcss.com/docs/installation/">
@@ -25,10 +22,7 @@
             </a>
         </p>
 
-        <div class="mt-4">
-            <span class="h-6 w-6 leading-relaxed mr-1 text-sm bg-green-800 text-white rounded-full inline-block text-center">2</span>
-            Add some important classes
-        </div>
+        <tw-heading type="h3" text="Add important classes" number="2"/>
 
         <p class="mt-4">
             Some layout components require the <code>html</code> and <code>body</code> tags to have some tailwind
@@ -47,7 +41,7 @@
             </router-link>
         </div>
 
-    </div>
+    </tw-content>
 </template>
 
 <script>

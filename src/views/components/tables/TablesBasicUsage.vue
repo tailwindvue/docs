@@ -1,12 +1,16 @@
 <template>
-    <div>
+    <tw-content>
         <tw-heading type="h2">Basic Usage</tw-heading>
 
         <p>There are two ways to create a table:</p>
 
-        <span class="h-6 w-6 leading-relaxed mr-1 text-sm bg-green-800 text-white rounded-full inline-block text-center">1</span>
-        You can pass an array of objects into the table component. The component will use the keys of the first object
-        to generate the table headings. Each object will then be rendered as a table row.
+        <tw-heading type="h3" text="Using an array of objects" number="1"/>
+
+        <p>
+            You can pass an array of objects into the table component. The component will use the keys of the first
+            object
+            to generate the table headings. Each object will then be rendered as a table row.
+        </p>
 
         <tw-code-demo language="vuejs" caption="Basic table usage">
             <tw-table :items="items"/>
@@ -16,9 +20,12 @@
             </template>
         </tw-code-demo>
 
-        <span class="h-6 w-6 leading-relaxed mr-1 text-sm bg-green-800 text-white rounded-full inline-block text-center">1</span>
-        Alternatively, you can use the table heading, row and column components directly in the heading and default
-        slots.
+        <tw-heading type="h3" text="Using the table components" number="2"/>
+
+        <p>
+            Alternatively, you can use the table heading, row and column components directly in the heading and default
+            slots.
+        </p>
 
         <tw-code-demo language="vuejs" caption="Basic table usage with the default slot">
             <tw-table>
@@ -47,7 +54,7 @@
                 {{ tableBasicUsageSlot }}
             </template>
         </tw-code-demo>
-    </div>
+    </tw-content>
 </template>
 
 <script>
