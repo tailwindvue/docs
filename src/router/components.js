@@ -1,15 +1,32 @@
-import Alerts from '../views/components/alerts/Alerts';
-import Badges from '../views/components/badges/Badges';
-import Headings from '../views/components/headings/Headings';
-import Panel from '../views/components/panels/Panels';
-import Tables from '../views/components/tables/Tables';
-import Tabs from '../views/components/tabs/Tabs';
-
 export default [
-    { path: '/alerts', name: 'Alerts', component: Alerts },
-    { path: '/badges', name: 'Badges', component: Badges },
-    { path: '/headings', name: 'Headings', component: Headings },
-    { path: '/panels', name: 'Panels', component: Panel },
-    { path: '/tables', name: 'Tables', component: Tables },
-    { path: '/tabs', name: 'Tabs', component: Tabs },
+    {
+        path: '/alerts',
+        name: 'Alerts',
+        component: () => import(/* webpackChunkName: "alerts" */ '../views/components/alerts/Alerts')
+    },
+    {
+        path: '/badges',
+        name: 'Badges',
+        component: () => import(/* webpackChunkName: "badges" */ '../views/components/badges/Badges')
+    },
+    {
+        path: '/headings',
+        name: 'Headings',
+        component: () => import(/* webpackChunkName: "headings" */ '../views/components/headings/Headings')
+    },
+    {
+        path: '/panels',
+        name: 'Panels',
+        component: () => import(/* webpackChunkName: "panels" */ '../views/components/panels/Panels')
+    },
+    {
+        path: '/tables',
+        name: 'Tables',
+        component: () => import(/* webpackChunkName: "tables" */'../views/components/tables/Tables')
+    },
+    {
+        path: '/tabs',
+        name: 'Tabs',
+        component: () => import(/* webpackChunkName: "tabs" */ '../views/components/tabs/Tabs')
+    },
 ];
