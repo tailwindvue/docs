@@ -1028,9 +1028,9 @@
   integrity sha512-qmkg/ymIJ53ddx3ZHEPpH1HiJ/IJc7WSHo/xw6ja/21gRNn28dfeROtRLm1t4/o9y4oSH7RM99IeIL1mGYA1gw==
 
 "@tailwindvue/tailwindvue@^0.1.4":
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/@tailwindvue/tailwindvue/-/tailwindvue-0.1.11.tgz#f0f006e91e72f2981a3e59abf45867e8b69b5b39"
-  integrity sha512-WkWE0zs2EjlDLzUzZrbSnY2+u2zXrOHJfMSV8etP3LEp0vaUi3MHXuheF9WJhtjeVqs9UuR7YHJYjFOH1bBTcQ==
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/@tailwindvue/tailwindvue/-/tailwindvue-0.1.12.tgz#18a82990119a14dca22a4e52afe369820b297853"
+  integrity sha512-ht3H75Bdu97/y7h7r2aNZJTymNdX5YnmhdjPJstkufPU15bYCKlBEzSXaUj2oWUlJ8Z+nsUzh/wVrrVR9oZDkw==
   dependencies:
     babel-plugin-prismjs "^2.0.1"
     core-js "^3.6.4"
