@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <tw-content>
         <tw-heading>Tailwind Vue</tw-heading>
 
         <p>
@@ -13,7 +13,7 @@
             Please check back regularly to
             <a href="https://github.com/tailwindvue/tailwindvue/releases">follow our progress</a>.
         </tw-alert>
-    </div>
+    </tw-content>
 </template>
 
 <script>
