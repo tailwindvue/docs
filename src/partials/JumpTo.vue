@@ -1,5 +1,6 @@
 <template>
-    <div v-if="headings.length">
+    <div v-if="headings.length"
+         class="sticky top-24">
         <div class="block uppercase mt-4 text-sm text-gray-500 font-medium">
             Jump To
         </div>

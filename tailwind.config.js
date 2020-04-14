@@ -1,6 +1,10 @@
 module.exports = {
     theme: {
-        extend: {},
+        extend: {
+            inset: {
+                '24': '6rem',
+            }
+        },
     },
     variants: {
         cursor: ['responsive', 'hover', 'focus', 'group-hover'],

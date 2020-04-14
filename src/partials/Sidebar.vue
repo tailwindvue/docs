@@ -1,5 +1,6 @@
 <template>
-    <tw-sidebar :items="items" />
+    <tw-sidebar class="sticky top-24"
+                :items="items" />
 </template>
 
 <script>
