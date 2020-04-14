@@ -1,5 +1,5 @@
 <template>
-    <tw-sidebar :items="items"/>
+    <tw-sidebar :items="items" />
 </template>
 
 <script>

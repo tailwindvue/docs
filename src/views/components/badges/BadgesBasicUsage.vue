@@ -1,13 +1,16 @@
 <template>
     <tw-content>
 
-        <tw-heading id="basic-usage" type="h2" text="Basic Usage"/>
+        <tw-heading id="basic-usage"
+                    type="h2"
+                    text="Basic Usage" />
 
         <p>
             You pass the badge text through the default slot:
         </p>
 
-        <tw-code-demo language="vuejs" caption="Basic badge usage with slot">
+        <tw-code-demo language="vuejs"
+                      caption="Basic badge usage with slot">
             <tw-badge>Badge</tw-badge>
 
             <template #code>
@@ -19,8 +22,9 @@
             Or you can use the text prop:
         </p>
 
-        <tw-code-demo language="vuejs" caption="Basic badge usage with text prop">
-            <tw-badge text="badge"/>
+        <tw-code-demo language="vuejs"
+                      caption="Basic badge usage with text prop">
+            <tw-badge text="badge" />
 
             <template #code>
                 {{ basicUsageText }}

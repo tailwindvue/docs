@@ -2,9 +2,9 @@
     <tw-content>
         <tw-heading>Tabs</tw-heading>
 
-        <TabsIntroduction/>
-        <TabsBasicUsage/>
-        <ThemeClasses component="tabs"/>
+        <TabsIntroduction />
+        <TabsBasicUsage />
+        <ThemeClasses component="tabs" />
     </tw-content>
 </template>
 

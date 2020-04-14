@@ -1,6 +1,8 @@
 <template>
     <tw-content>
-        <tw-heading id="introduction" type="h2" text="Introduction"/>
+        <tw-heading id="introduction"
+                    type="h2"
+                    text="Introduction" />
 
         <tw-table>
             <template #header>

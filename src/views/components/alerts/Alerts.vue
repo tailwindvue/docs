@@ -1,13 +1,13 @@
 <template>
     <tw-content>
-        <tw-heading text="Alerts"/>
+        <tw-heading text="Alerts" />
 
-        <AlertsIntroduction/>
-        <AlertsBasicUsage/>
-        <AlertsTypes/>
-        <AlertsIcons/>
-        <AlertsProps/>
-        <ThemeClasses component="alert"/>
+        <AlertsIntroduction />
+        <AlertsBasicUsage />
+        <AlertsTypes />
+        <AlertsIcons />
+        <AlertsProps />
+        <ThemeClasses component="alert" />
     </tw-content>
 </template>
 

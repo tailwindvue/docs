@@ -1,7 +1,9 @@
 <template>
     <tw-content>
 
-        <tw-heading id="props" type="h2" text="Props"/>
+        <tw-heading id="props"
+                    type="h2"
+                    text="Props" />
 
         <tw-table>
             <template #header>

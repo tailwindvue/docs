@@ -1,10 +1,10 @@
 <template>
     <tw-content>
-        <tw-heading text="Tables"/>
+        <tw-heading text="Tables" />
 
-        <TablesIntroduction/>
-        <TablesBasicUsage/>
-        <ThemeClasses component="table"/>
+        <TablesIntroduction />
+        <TablesBasicUsage />
+        <ThemeClasses component="table" />
     </tw-content>
 </template>
 

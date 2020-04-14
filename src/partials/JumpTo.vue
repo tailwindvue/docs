@@ -3,10 +3,10 @@
         <div class="block uppercase mt-4 text-sm text-gray-500 font-medium">
             Jump To
         </div>
-        <div class="cursor-pointer normal-case font-normal text-gray-600 hover:text-gray-800"
+        <div v-for="heading in headings"
              :key="heading.anchor"
+             class="cursor-pointer normal-case font-normal text-gray-600 hover:text-gray-800"
              :to="heading.anchor"
-             v-for="heading in headings"
              @click="scrollIntoView(heading)">
             {{ getLabel(heading) }}
         </div>
@@ -19,8 +19,10 @@
     export default {
         name: 'JumpTo',
 
-        mounted() {
-            this.updateHeadings();
+        data() {
+            return {
+                headings: []
+            };
         },
 
         watch: {
@@ -29,10 +31,8 @@
             }
         },
 
-        data() {
-            return {
-                headings: []
-            };
+        mounted() {
+            this.updateHeadings();
         },
 
         methods: {

@@ -1,12 +1,12 @@
 <template>
     <tw-content>
 
-        <tw-heading text="Badges"/>
+        <tw-heading text="Badges" />
 
-        <BadgesIntroduction/>
-        <BadgesBasicUsage/>
-        <BadgesTypes/>
-        <ThemeClasses component="badge"/>
+        <BadgesIntroduction />
+        <BadgesBasicUsage />
+        <BadgesTypes />
+        <ThemeClasses component="badge" />
 
     </tw-content>
 </template>

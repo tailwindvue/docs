@@ -1,9 +1,12 @@
 <template>
     <tw-content>
 
-        <tw-heading id="basic-usage" type="h2" text="Basic Usage"/>
+        <tw-heading id="basic-usage"
+                    type="h2"
+                    text="Basic Usage" />
 
-        <tw-code-demo language="vuejs" caption="Basic Panel Usage">
+        <tw-code-demo language="vuejs"
+                      caption="Basic Panel Usage">
             <tw-panel>
                 <template #header>
                     Panel Heading

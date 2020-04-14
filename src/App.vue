@@ -1,16 +1,16 @@
 <template id="app">
     <tw-app id="top">
         <template #header>
-            <Navbar/>
+            <Navbar />
         </template>
         <template #left>
-            <Sidebar/>
+            <Sidebar />
         </template>
         <template #right>
-            <Headings/>
+            <Headings />
         </template>
 
-        <router-view/>
+        <router-view />
     </tw-app>
 </template>
 

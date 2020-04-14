@@ -1,7 +1,9 @@
 <template>
     <tw-content>
 
-        <tw-heading id="introduction" type="h2" text="Introduction"/>
+        <tw-heading id="introduction"
+                    type="h2"
+                    text="Introduction" />
 
         <p>
             The heading component enables you to display text in one of six heading styles. You can set the heading type

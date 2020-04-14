@@ -1,13 +1,16 @@
 <template>
     <tw-content>
 
-        <tw-heading id="basic-usage" type="h2" text="Basic Usage"/>
+        <tw-heading id="basic-usage"
+                    type="h2"
+                    text="Basic Usage" />
 
         <p>
             You pass the heading through the default slot:
         </p>
 
-        <tw-code-demo language="vuejs" caption="H1">
+        <tw-code-demo language="vuejs"
+                      caption="H1">
             <tw-heading>A heading.</tw-heading>
 
             <template #code>
@@ -19,8 +22,9 @@
             Or you can use the text prop:
         </p>
 
-        <tw-code-demo language="vuejs" caption="H1">
-            <tw-heading text="Another Heading"/>
+        <tw-code-demo language="vuejs"
+                      caption="H1">
+            <tw-heading text="Another Heading" />
 
             <template #code>
                 {{ basicUsageText }}

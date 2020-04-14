@@ -1,14 +1,17 @@
 <template>
     <tw-content>
 
-        <tw-heading id="icons" type="h2" text="Icons"/>
+        <tw-heading id="icons"
+                    type="h2"
+                    text="Icons" />
 
         <p>You can use a slot called icon to add an icon to your alert.</p>
 
-        <tw-code-demo language="vuejs" caption="Basic alert usage">
+        <tw-code-demo language="vuejs"
+                      caption="Basic alert usage">
             <tw-alert>
                 <template #icon>
-                    <i class="fas fa-lg fa-pencil"/>
+                    <i class="fas fa-lg fa-pencil" />
                 </template>
                 An alert with an icon.
             </tw-alert>

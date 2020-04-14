@@ -1,13 +1,13 @@
 <template>
     <tw-content>
 
-        <tw-heading text="Headings"/>
+        <tw-heading text="Headings" />
 
-        <HeadingsIntroduction/>
-        <HeadingsBasicUsage/>
-        <HeadingsTypes/>
-        <HeadingsProps/>
-        <ThemeClasses component="heading"/>
+        <HeadingsIntroduction />
+        <HeadingsBasicUsage />
+        <HeadingsTypes />
+        <HeadingsProps />
+        <ThemeClasses component="heading" />
 
     </tw-content>
 </template>

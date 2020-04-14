@@ -3,9 +3,9 @@
 
         <tw-heading>Panels</tw-heading>
 
-        <PanelsIntroduction/>
-        <PanelsBasicUsage/>
-        <ThemeClasses component="panel"/>
+        <PanelsIntroduction />
+        <PanelsBasicUsage />
+        <ThemeClasses component="panel" />
 
     </tw-content>
 </template>

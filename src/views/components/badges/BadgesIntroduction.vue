@@ -1,7 +1,9 @@
 <template>
     <tw-content>
 
-        <tw-heading id="introduction" type="h2" text="Introduction"/>
+        <tw-heading id="introduction"
+                    type="h2"
+                    text="Introduction" />
 
         <p>
             This component will display a badge in one of the configurable styles: default, info, warning, danger and
