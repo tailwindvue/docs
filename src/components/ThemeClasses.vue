@@ -46,9 +46,15 @@
         methods: {
             getClasses(object, prefix = null) {
                 forEach(object, (value, key) => {
-                    return typeof value === 'object'
-                        ? this.getClasses(value, key)
-                        : this.theme[(prefix ? prefix + '.' + key : key)] = value.split(' ');
+                    if (value === '') {
+                        return this.theme[key] = ['None'];
+                    }
+
+                    if (typeof value === 'object') {
+                        return this.getClasses(value, key);
+                    }
+
+                    return this.theme[(prefix ? prefix + '.' + key : key)] = value.split(' ');
                 });
             }
         },

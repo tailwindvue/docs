@@ -1,5 +1,5 @@
 const whitelist = require('@tailwindvue/tailwindvue/src/utilities/whitelist');
-const isInProduction = true; //process.env.NODE_ENV === 'production';
+const isInProduction = process.env.NODE_ENV === 'production';
 
 const purgecss = require('@fullhuman/postcss-purgecss')({
 

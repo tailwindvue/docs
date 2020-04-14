@@ -100,46 +100,19 @@
 </template>
 
 <script>
+    import { h1, h2, h3, h4, h5, h6 } from './snippets';
+
     export default {
         name: 'HeadingsTypes',
 
         data() {
             return {
-                h1: `
-                    <tw-heading type="h1">
-                        Heading One
-                    </tw-heading>
-                `,
-
-                h2: `
-                    <tw-heading type="h2">
-                        Heading Two
-                    </tw-heading>
-                `,
-
-                h3: `
-                    <tw-heading type="h3">
-                        Heading Three
-                    </tw-heading>
-                `,
-
-                h4: `
-                    <tw-heading type="h4">
-                        Heading Four
-                    </tw-heading>
-                `,
-
-                h5: `
-                    <tw-heading type="h5">
-                        Heading Five
-                    </tw-heading>
-                `,
-
-                h6: `
-                    <tw-heading type="h6">
-                        Heading Six
-                    </tw-heading>
-                `,
+                h1,
+                h2,
+                h3,
+                h4,
+                h5,
+                h6
             };
         },
     };

@@ -46,6 +46,8 @@
 </template>
 
 <script>
+    import { dismissableAlert, durationAlert } from './snippets';
+
     export default {
         name: 'AlertsProps',
 
@@ -54,18 +56,8 @@
                 alertDismissed: false,
                 alertSelfHidden: false,
                 duration: false,
-
-                dismissableAlert: `
-                    <tw-alert :dismissable="true" @dismissed="dismissedHandler">
-                        A dismissable alert.
-                    </tw-alert>
-                `,
-
-                durationAlert: `
-                    <tw-alert :duration="duration">
-                        An alert that disappears after a certain duration.
-                    </tw-alert>
-                `
+                dismissableAlert,
+                durationAlert
             };
         },
 

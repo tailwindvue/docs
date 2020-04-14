@@ -21,21 +21,14 @@
 </template>
 
 <script>
+    import { panelBasicUsage } from './snippets';
+
     export default {
         name: 'PanelsBasicUsage',
 
         data() {
             return {
-                panelBasicUsage: `
-                    <tw-panel>
-                        <template #header>
-                            Panel Heading
-                        </template>
-
-                        Panel Body
-
-                    </tw-panel>
-                `
+                panelBasicUsage,
             };
         },
     };

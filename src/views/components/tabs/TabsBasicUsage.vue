@@ -20,18 +20,14 @@
 </template>
 
 <script>
+    import { tabsBasicUsage } from './snippets';
+
     export default {
         name: 'TabsBasicUsage',
 
         data() {
             return {
-                tabsBasicUsage: `
-                    <tw-tabs>
-                        <tw-tab name="One">One</tw-tab>
-                        <tw-tab name="Two">Two</tw-tab>
-                        <tw-tab name="Three">Three</tw-tab>
-                    </tw-tabs>
-                `
+                tabsBasicUsage
             };
         },
     };

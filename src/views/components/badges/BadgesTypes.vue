@@ -57,11 +57,21 @@
             <tw-tab name="All">
                 <tw-code-demo language="vuejs" caption="All Alerts">
 
-                    <div class="mb-4"><tw-badge text="Badge"/></div>
-                    <div class="mb-4"><tw-badge type="info" text="Badge"/></div>
-                    <div class="mb-4"><tw-badge type="warning" text="Badge"/></div>
-                    <div class="mb-4"><tw-badge type="danger" text="Badge"/></div>
-                    <div class="mb-4"><tw-badge type="success" text="Badge"/></div>
+                    <div class="mb-4">
+                        <tw-badge text="Badge"/>
+                    </div>
+                    <div class="mb-4">
+                        <tw-badge type="info" text="Badge"/>
+                    </div>
+                    <div class="mb-4">
+                        <tw-badge type="warning" text="Badge"/>
+                    </div>
+                    <div class="mb-4">
+                        <tw-badge type="danger" text="Badge"/>
+                    </div>
+                    <div class="mb-4">
+                        <tw-badge type="success" text="Badge"/>
+                    </div>
 
                     <template #code>
                         {{ defaultBadge }}
@@ -78,26 +88,18 @@
 </template>
 
 <script>
+    import { defaultBadge, infoBadge, warningBadge, dangerBadge, successBadge } from './snippets';
+
     export default {
         name: 'BadgeTypes',
 
         data() {
             return {
-                defaultBadge: `
-                    <tw-badge text="Badge"/>
-                `,
-                infoBadge: `
-                    <tw-badge type="info" text="Badge"/>
-                `,
-                warningBadge: `
-                    <tw-badge type="warning" text="Badge"/>
-                `,
-                dangerBadge: `
-                    <tw-badge type="danger" text="Badge"/>
-                `,
-                successBadge: `
-                    <tw-badge type="success" text="Badge"/>
-                `,
+                defaultBadge,
+                infoBadge,
+                warningBadge,
+                dangerBadge,
+                successBadge
             };
         },
     };

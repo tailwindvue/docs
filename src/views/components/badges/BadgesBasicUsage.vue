@@ -31,17 +31,15 @@
 </template>
 
 <script>
+    import { basicUsageSlot, basicUsageText } from './snippets';
+
     export default {
         name: 'BadgeBasicUsage',
 
         data() {
             return {
-                basicUsageSlot: `
-                    <tw-badge>Badge</tw-badge>
-                `,
-                basicUsageText: `
-                    <tw-badge text="Badge"/>
-                `
+                basicUsageSlot,
+                basicUsageText
             };
         },
     };

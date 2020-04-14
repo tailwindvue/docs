@@ -1,7 +1,7 @@
 <template>
     <tw-content>
 
-        <tw-heading id="types" type="h2" text="Types" />
+        <tw-heading id="types" type="h2" text="Types"/>
 
         <p>You can choose from a number of different alert types.</p>
 
@@ -103,40 +103,18 @@
 </template>
 
 <script>
+    import { defaultAlert, infoAlert, warningAlert, dangerAlert, successAlert } from './snippets';
+
     export default {
         name: 'AlertsTypes',
 
         data() {
             return {
-                defaultAlert: `
-                    <tw-alert>
-                        A default alert.
-                    </tw-alert>
-                `,
-
-                infoAlert: `
-                    <tw-alert type="info">
-                        An info alert.
-                    </tw-alert>
-                `,
-
-                warningAlert: `
-                    <tw-alert type="warning">
-                        A warning alert.
-                    </tw-alert>
-                `,
-
-                dangerAlert: `
-                    <tw-alert type="danger">
-                        A danger alert.
-                    </tw-alert>
-                `,
-
-                successAlert: `
-                    <tw-alert type="success">
-                        A success alert.
-                    </tw-alert>
-                `,
+                defaultAlert,
+                infoAlert,
+                warningAlert,
+                dangerAlert,
+                successAlert
             };
         },
     };

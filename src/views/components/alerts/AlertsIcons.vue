@@ -22,19 +22,14 @@
 </template>
 
 <script>
+    import { alertWithIcon } from './snippets';
+
     export default {
         name: 'AlertsIcons',
 
         data() {
             return {
-                alertWithIcon: `
-                    <tw-alert>
-                        <template #icon>
-                            <i class="fas fa-lg fa-pencil"/>
-                        </template>
-                        An alert with an icon.
-                    </tw-alert>
-                `
+                alertWithIcon
             };
         },
     };

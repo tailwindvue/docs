@@ -17,16 +17,14 @@
 </template>
 
 <script>
+    import { basicAlert } from './snippets';
+
     export default {
         name: 'AlertsBasicUsage',
 
         data() {
             return {
-                basicAlert: `
-                    <tw-alert>
-                        A basic alert.
-                    </tw-alert>
-                `,
+                basicAlert
             };
         },
     };

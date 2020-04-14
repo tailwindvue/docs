@@ -31,17 +31,15 @@
 </template>
 
 <script>
+    import { basicUsageSlot, basicUsageText } from './snippets';
+
     export default {
         name: 'HeadingsBasicUsage',
 
         data() {
             return {
-                basicUsageSlot: `
-                    <tw-heading>Heading One</tw-heading>
-                `,
-                basicUsageText: `
-                    <tw-heading text="Another Heading"/>
-                `,
+                basicUsageSlot,
+                basicUsageText
             };
         },
     };
