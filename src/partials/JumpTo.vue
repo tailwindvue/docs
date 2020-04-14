@@ -1,9 +1,10 @@
 <template>
-    <div v-if="headings.length" class="fixed w-64 text-right">
+    <div v-if="headings.length">
         <div class="block uppercase mt-4 text-sm text-gray-500 font-medium">
             Jump To
         </div>
         <div class="cursor-pointer normal-case font-normal text-gray-600 hover:text-gray-800"
+             :key="heading.anchor"
              :to="heading.anchor"
              v-for="heading in headings"
              @click="scrollIntoView(heading)">
@@ -23,7 +24,7 @@
         },
 
         watch: {
-            '$route'(to, from) {
+            '$route'() {
                 this.updateHeadings();
             }
         },
@@ -41,10 +42,6 @@
 
             updateHeadings() {
                 this.headings = Array.from(document.querySelectorAll('*[id]'));
-            },
-
-            scrollToTop() {
-                this.scrollIntoView(document.getElementById('#top'));
             },
 
             scrollIntoView(element) {
