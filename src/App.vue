@@ -7,9 +7,14 @@
             <Sidebar />
         </template>
         <template #right>
-            <Headings />
+            <JumpTo />
         </template>
-
+        <template #banner>
+            <Banner />
+        </template>
+        <template #footer>
+            <Footer />
+        </template>
         <router-view />
     </tw-app>
 </template>
@@ -17,15 +22,20 @@
 <script>
     import Sidebar from './partials/Sidebar';
     import Navbar from './partials/Navbar';
-    import Headings from './partials/JumpTo';
+    import JumpTo from './partials/JumpTo';
+    import Banner from './partials/Banner';
+    import Footer from './partials/Footer';
 
     export default {
         name: 'App',
 
         components: {
-            Headings,
+            Footer,
+            Banner,
+            JumpTo,
             Sidebar,
             Navbar
         },
     };
 </script>
+
