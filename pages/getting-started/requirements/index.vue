@@ -42,9 +42,9 @@
 
         <hr class="mt-8">
         <div class="text-right mt-4">
-            <router-link to="/installation">
+            <tw-link to="/getting-started/installation">
                 Installation <i class="fas fa-arrow-right fa-fw" />
-            </router-link>
+            </tw-link>
         </div>
 
     </tw-content>

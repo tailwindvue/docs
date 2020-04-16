@@ -57,9 +57,9 @@
 
         <hr class="mt-8">
         <div class="mt-4">
-            <router-link to="/requirements">
+            <tw-link to="/getting-started/requirements">
                 <i class="fas fa-arrow-left fa-fw" /> Requirements
-            </router-link>
+            </tw-link>
         </div>
     </tw-content>
 </template>

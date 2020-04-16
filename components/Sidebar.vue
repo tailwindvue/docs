@@ -13,12 +13,12 @@
             </li>
             <li>
                 <nuxt-link class="block"
-                           to="/getting-started/installation">Installation
+                           to="/getting-started/requirements">Requirements
                 </nuxt-link>
             </li>
             <li>
                 <nuxt-link class="block"
-                           to="/getting-started/requirements">Requirements
+                           to="/getting-started/installation">Installation
                 </nuxt-link>
             </li>
             <li class="uppercase text-sm text-gray-600 tracking-wide mt-4">
