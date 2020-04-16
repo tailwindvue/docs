@@ -25,10 +25,15 @@ module.exports = {
             'multiline': 'never'
         }],
     },
+    'ignorePatterns': [
+        '.gitignore',
+        'dist/',
+        'node_modules/'
+    ],
     overrides: [
         {
             files: [
-                '**/tests/**/*.spec.{j,t}s?(x)'
+                'test/**/*.spec.{j,t}s?(x)'
             ],
             env: {
                 jest: true
