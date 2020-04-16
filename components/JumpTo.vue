@@ -7,7 +7,6 @@
         <div v-for="heading in headings"
              :key="heading.anchor"
              class="cursor-pointer normal-case font-normal text-gray-600 hover:text-gray-800"
-             :to="heading.anchor"
              @click="scrollIntoView(heading)">
             {{ getLabel(heading) }}
         </div>
@@ -26,14 +25,9 @@
             };
         },
 
-        watch: {
-            '$route'() {
-                this.updateHeadings();
-            }
-        },
-
         mounted() {
             this.updateHeadings();
+            this.$nuxt.$on('routeChanged', () => setTimeout(this.updateHeadings, 500));
         },
 
         methods: {
@@ -42,7 +36,9 @@
             },
 
             updateHeadings() {
-                this.headings = Array.from(document.querySelectorAll('*[id]:not(#__nuxt):not(#__layout'));
+                this.headings = Array
+                    .from(document.querySelectorAll('*[id]:not(#__nuxt):not(#__layout)'))
+                    .filter(item => item.getAttribute('id'));
             },
 
             scrollIntoView(element) {
