@@ -1,5 +1,5 @@
 <template>
-    <div class="sticky top-24">
+    <tw-sidebar class="sticky top-24">
         <ul>
             <li>
                 <i class="fa fa-home" />
@@ -55,7 +55,7 @@
                 </nuxt-link>
             </li>
         </ul>
-    </div>
+    </tw-sidebar>
 </template>
 
 <script>
