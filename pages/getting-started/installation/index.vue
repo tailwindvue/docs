@@ -10,13 +10,7 @@
 
         <tw-code language="bash"
                  caption="Installing the package">
-            <pre>
-                # yarn
-                yarn add @tailwindvue/tailwindvue
-
-                # npm
-                npm install --save @tailwindvue/tailwindvue
-            </pre>
+            {{ installPackage }}
         </tw-code>
 
         <tw-heading type="h3"
@@ -30,13 +24,7 @@
         <tw-code class="mt-4"
                  language="javascript"
                  caption="Install the TailwindVue plugin to add all components">
-            <pre>
-                import Vue from 'vue;
-                import TailwindVue from '@tailwindvue/tailwindvue';
-
-                // Add all components
-                Vue.use(TailwindVue);
-            </pre>
+            {{ installPlugin }}
         </tw-code>
 
         <p>
@@ -45,14 +33,7 @@
 
         <tw-code language="javascript"
                  caption="Import individual components">
-            <pre>
-                import Vue from 'vue';
-                import { Heading, Panel } from '@tailwindvue/tailwindvue';
-
-                // Add some components
-                Vue.use(Heading);
-                Vue.use(Panel);
-            </pre>
+            {{ installComponents }}
         </tw-code>
 
         <hr class="mt-8">
@@ -65,7 +46,17 @@
 </template>
 
 <script>
+    import { installPackage, installPlugin, installComponents } from './snippets';
+
     export default {
         name: 'Installation',
+
+        data() {
+            return {
+                installPackage,
+                installPlugin,
+                installComponents
+            };
+        },
     };
 </script>

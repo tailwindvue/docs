@@ -12,16 +12,11 @@ export default {
     */
     loading: { color: '#fff' },
     /*
-    ** Global CSS
-    */
-    css: [
-        '@tailwindvue/tailwindvue/dist/tailwindvue.css'
-    ],
-    /*
     ** Plugins to load before mounting the App
     */
     plugins: [
-        '@/plugins/tailwindvue'
+        '@/plugins/tailwindvue',
+        '@/plugins/highlight',
     ],
     /*
     ** Nuxt.js dev-modules
