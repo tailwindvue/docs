@@ -1,6 +1,6 @@
 import Vue from 'vue';
 import Alert from '@tailwindvue/tailwindvue/src/components/Alert';
-import App from '@tailwindvue/tailwindvue/src/components/layout/App';
+import App from '@tailwindvue/tailwindvue/src/components/App';
 import Badge from '@tailwindvue/tailwindvue/src/components/Badge';
 import Code from '@tailwindvue/tailwindvue/src/components/Code';
 import CodeDemo from '@tailwindvue/tailwindvue/src/components/CodeDemo';
