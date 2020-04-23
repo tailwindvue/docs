@@ -2,7 +2,7 @@
     <tw-content>
 
         <tw-heading id="types"
-                    type="h2"
+                    variant="h2"
                     text="Types" />
 
         <tw-tabbed-code-demo>
@@ -20,7 +20,7 @@
             <tw-tab name="Info">
                 <tw-code-demo language="vuejs"
                               caption="Info Badge">
-                    <tw-badge type="info"
+                    <tw-badge variant="info"
                               text="Badge" />
 
                     <template #code>
@@ -32,7 +32,7 @@
             <tw-tab name="Warning">
                 <tw-code-demo language="vuejs"
                               caption="Warning Badge">
-                    <tw-badge type="warning"
+                    <tw-badge variant="warning"
                               text="Badge" />
 
                     <template #code>
@@ -44,7 +44,7 @@
             <tw-tab name="Danger">
                 <tw-code-demo language="vuejs"
                               caption="Danger Badge">
-                    <tw-badge type="danger"
+                    <tw-badge variant="danger"
                               text="Badge" />
 
                     <template #code>
@@ -56,7 +56,7 @@
             <tw-tab name="Success">
                 <tw-code-demo language="vuejs"
                               caption="Success Badge">
-                    <tw-badge type="success"
+                    <tw-badge variant="success"
                               text="Badge" />
 
                     <template #code>
@@ -73,19 +73,19 @@
                         <tw-badge text="Badge" />
                     </div>
                     <div class="mb-4">
-                        <tw-badge type="info"
+                        <tw-badge variant="info"
                                   text="Badge" />
                     </div>
                     <div class="mb-4">
-                        <tw-badge type="warning"
+                        <tw-badge variant="warning"
                                   text="Badge" />
                     </div>
                     <div class="mb-4">
-                        <tw-badge type="danger"
+                        <tw-badge variant="danger"
                                   text="Badge" />
                     </div>
                     <div class="mb-4">
-                        <tw-badge type="success"
+                        <tw-badge variant="success"
                                   text="Badge" />
                     </div>
 

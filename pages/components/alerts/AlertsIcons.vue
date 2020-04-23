@@ -2,7 +2,7 @@
     <tw-content>
 
         <tw-heading id="icons"
-                    type="h2"
+                    variant="h2"
                     text="Icons" />
 
         <p>You can use a slot called icon to add an icon to your alert.</p>

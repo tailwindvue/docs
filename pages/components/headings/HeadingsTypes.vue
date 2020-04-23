@@ -1,14 +1,14 @@
 <template>
     <tw-content>
         <tw-heading id="types"
-                    type="h2"
+                    variant="h2"
                     text="Types" />
 
         <tw-tabbed-code-demo>
             <tw-tab name="H1">
                 <tw-code-demo language="vuejs"
                               caption="H1">
-                    <tw-heading type="h1">
+                    <tw-heading variant="h1">
                         Heading One
                     </tw-heading>
 
@@ -21,7 +21,7 @@
             <tw-tab name="H2">
                 <tw-code-demo language="vuejs"
                               caption="H2">
-                    <tw-heading type="h2">
+                    <tw-heading variant="h2">
                         Heading Two
                     </tw-heading>
 
@@ -34,7 +34,7 @@
             <tw-tab name="H3">
                 <tw-code-demo language="vuejs"
                               caption="H3">
-                    <tw-heading type="h3">
+                    <tw-heading variant="h3">
                         Heading Three
                     </tw-heading>
 
@@ -47,7 +47,7 @@
             <tw-tab name="H4">
                 <tw-code-demo language="vuejs"
                               caption="H4">
-                    <tw-heading type="h4">
+                    <tw-heading variant="h4">
                         Heading Four
                     </tw-heading>
 
@@ -60,7 +60,7 @@
             <tw-tab name="H5">
                 <tw-code-demo language="vuejs"
                               caption="H5">
-                    <tw-heading type="h5">
+                    <tw-heading variant="h5">
                         Heading Five
                     </tw-heading>
 
@@ -73,7 +73,7 @@
             <tw-tab name="H6">
                 <tw-code-demo language="vuejs"
                               caption="H6">
-                    <tw-heading type="h6">
+                    <tw-heading variant="h6">
                         Heading Six
                     </tw-heading>
 
@@ -87,22 +87,22 @@
                 <tw-code-demo language="vuejs"
                               caption="All Alerts">
 
-                    <tw-heading type="h1">
+                    <tw-heading variant="h1">
                         Heading One
                     </tw-heading>
-                    <tw-heading type="h2">
+                    <tw-heading variant="h2">
                         Heading Two
                     </tw-heading>
-                    <tw-heading type="h3">
+                    <tw-heading variant="h3">
                         Heading Three
                     </tw-heading>
-                    <tw-heading type="h4">
+                    <tw-heading variant="h4">
                         Heading Four
                     </tw-heading>
-                    <tw-heading type="h5">
+                    <tw-heading variant="h5">
                         Heading Five
                     </tw-heading>
-                    <tw-heading type="h6">
+                    <tw-heading variant="h6">
                         Heading Five
                     </tw-heading>
 

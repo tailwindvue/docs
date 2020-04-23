@@ -1,7 +1,7 @@
 <template>
     <tw-content>
         <tw-heading id="introduction"
-                    type="h2"
+                    variant="h2"
                     text="Introduction" />
         <p>
             This component renders an alert. There are five default styles for the

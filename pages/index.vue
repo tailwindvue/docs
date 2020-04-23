@@ -7,7 +7,7 @@
         </p>
 
         <tw-alert class="mt-4"
-                  type="warning">
+                  variant="warning">
             <template v-slot:icon>
                 <i class="fas fa-lg fa-exclamation" /></template>
             This package is under development and is in its very early stages. Feel free to try it and contribute,

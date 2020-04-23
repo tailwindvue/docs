@@ -6,11 +6,11 @@
             Before you begin, let's review a list of requirements that you will need to make use of TailwindVue.
         </p>
 
-        <tw-heading type="h3"
+        <tw-heading variant="h3"
                     text="Install Tailwind CSS"
                     number="1" />
 
-        <tw-alert type="info">
+        <tw-alert variant="info">
             <template v-slot:icon>
                 <i class="fas fa-lg fa-lightbulb" /></template>
             <strong>Tailwind CSS is bundled with Tailwind Vue</strong> in order to reduce the size of the
@@ -26,7 +26,7 @@
             </a>
         </p>
 
-        <tw-heading type="h3"
+        <tw-heading variant="h3"
                     text="Add important classes"
                     number="2" />
 

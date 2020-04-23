@@ -2,7 +2,7 @@
     <tw-content>
 
         <tw-heading id="props"
-                    type="h2"
+                    variant="h2"
                     text="Props" />
 
         <tw-table>

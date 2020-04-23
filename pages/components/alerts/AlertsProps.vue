@@ -2,10 +2,10 @@
     <tw-content>
 
         <tw-heading id="props"
-                    type="h2">Props
+                    variant="h2">Props
         </tw-heading>
 
-        <tw-heading type="h3">
+        <tw-heading variant="h3">
             Dismissable
         </tw-heading>
 
@@ -34,7 +34,7 @@
             </template>
         </tw-code-demo>
 
-        <tw-heading type="h3"
+        <tw-heading variant="h3"
                     text="Duration" />
 
         <div v-if="alertSelfHidden"

@@ -1,7 +1,7 @@
 <template>
     <tw-content>
         <tw-heading id="introduction"
-                    type="h2"
+                    variant="h2"
                     text="Introduction" />
 
         <tw-table>

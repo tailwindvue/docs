@@ -1,7 +1,7 @@
 <template>
     <tw-content v-if="theme">
         <tw-heading id="theme"
-                    type="h2"
+                    variant="h2"
                     text="Theme" />
         <tw-table>
             <template #header>

@@ -2,7 +2,7 @@
     <tw-content>
 
         <tw-heading id="types"
-                    type="h2"
+                    variant="h2"
                     text="Types" />
 
         <p>You can choose from a number of different alert types.</p>
@@ -24,7 +24,7 @@
             <tw-tab name="Info">
                 <tw-code-demo language="vuejs"
                               caption="Info Alert">
-                    <tw-alert type="info">
+                    <tw-alert variant="info">
                         An <strong>info</strong> alert.
                     </tw-alert>
 
@@ -37,7 +37,7 @@
             <tw-tab name="Warning">
                 <tw-code-demo language="vuejs"
                               caption="Warning Alert">
-                    <tw-alert type="warning">
+                    <tw-alert variant="warning">
                         A <strong>warning</strong> alert.
                     </tw-alert>
 
@@ -50,7 +50,7 @@
             <tw-tab name="Danger">
                 <tw-code-demo language="vuejs"
                               caption="Danger Alert">
-                    <tw-alert type="danger">
+                    <tw-alert variant="danger">
                         A <strong>danger</strong> alert.
                     </tw-alert>
 
@@ -63,7 +63,7 @@
             <tw-tab name="Success">
                 <tw-code-demo language="vuejs"
                               caption="Success Alert">
-                    <tw-alert type="success">
+                    <tw-alert variant="success">
                         A <strong>success</strong> alert.
                     </tw-alert>
 
@@ -81,22 +81,22 @@
                     </tw-alert>
 
                     <tw-alert class="mt-4"
-                              type="info">
+                              variant="info">
                         An <strong>info</strong> alert.
                     </tw-alert>
 
                     <tw-alert class="mt-4"
-                              type="warning">
+                              variant="warning">
                         A <strong>warning</strong> alert.
                     </tw-alert>
 
                     <tw-alert class="mt-4"
-                              type="danger">
+                              variant="danger">
                         A <strong>danger</strong> alert.
                     </tw-alert>
 
                     <tw-alert class="mt-4"
-                              type="success">
+                              variant="success">
                         A <strong>success</strong> alert.
                     </tw-alert>
 

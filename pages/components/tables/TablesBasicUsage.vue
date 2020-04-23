@@ -2,12 +2,12 @@
     <tw-content>
 
         <tw-heading id="basic-usage"
-                    type="h2"
+                    variant="h2"
                     text="Basic Usage" />
 
         <p>There are two ways to create a table:</p>
 
-        <tw-heading type="h3"
+        <tw-heading variant="h3"
                     text="Using an array of objects"
                     number="1" />
 
@@ -26,7 +26,7 @@
             </template>
         </tw-code-demo>
 
-        <tw-heading type="h3"
+        <tw-heading variant="h3"
                     text="Using the table components"
                     number="2" />
 

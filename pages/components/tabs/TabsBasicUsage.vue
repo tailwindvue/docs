@@ -2,7 +2,7 @@
     <tw-content>
 
         <tw-heading id="basic-usage"
-                    type="h2"
+                    variant="h2"
                     text="Basic Usage" />
 
         <tw-code-demo language="vuejs"

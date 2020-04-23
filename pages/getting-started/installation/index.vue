@@ -2,7 +2,7 @@
     <tw-content>
         <tw-heading>Installation</tw-heading>
 
-        <tw-heading type="h3"
+        <tw-heading variant="h3"
                     text="Install the Library"
                     number="1" />
 
@@ -13,7 +13,7 @@
             {{ installPackage }}
         </tw-code>
 
-        <tw-heading type="h3"
+        <tw-heading variant="h3"
                     text="Install Tailwind Vue"
                     number="2" />
 
