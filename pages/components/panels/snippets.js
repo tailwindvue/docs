@@ -1,10 +1,10 @@
 export const panelBasicUsage = `
-    <tw-panel>
-        <template #header>
-            Panel Heading
-        </template>
+<tw-panel>
+    <template #header>
+        Panel Heading
+    </template>
 
-        Panel Body
+    Panel Body
 
-    </tw-panel>
+</tw-panel>
 `;

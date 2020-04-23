@@ -9,9 +9,8 @@
         <p>Start by adding the component library to your project.</p>
 
         <tw-code language="bash"
-                 caption="Installing the package">
-            {{ installPackage }}
-        </tw-code>
+                 caption="Installing the package"
+                 :code="installPackage" />
 
         <tw-heading variant="h3"
                     text="Install Tailwind Vue"
@@ -23,18 +22,16 @@
 
         <tw-code class="mt-4"
                  language="javascript"
-                 caption="Install the TailwindVue plugin to add all components">
-            {{ installPlugin }}
-        </tw-code>
+                 caption="Install the TailwindVue plugin to add all components"
+                 :code="installPlugin" />
 
         <p>
             or install individual components:
         </p>
 
         <tw-code language="javascript"
-                 caption="Import individual components">
-            {{ installComponents }}
-        </tw-code>
+                 caption="Import individual components"
+                 :code="installComponents" />
 
         <hr class="mt-8">
         <div class="mt-4">
@@ -58,5 +55,9 @@
                 installComponents
             };
         },
+
+        mounted() {
+            console.log(installPackage);
+        }
     };
 </script>
