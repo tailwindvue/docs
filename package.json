@@ -21,7 +21,6 @@
         "lintfix": "eslint --fix ."
     },
     "dependencies": {
-        "@tailwindvue/direct-children-plugin": "^1.0.0",
         "@tailwindvue/tailwindvue": "^0.1.13",
         "highlight.js": "^9.18.1",
         "lodash.foreach": "^4.5.0",

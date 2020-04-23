@@ -1291,11 +1291,6 @@
   dependencies:
     any-observable "^0.3.0"
 
-"@tailwindvue/direct-children-plugin@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@tailwindvue/direct-children-plugin/-/direct-children-plugin-1.0.0.tgz#e5bb8c9b20c6020f659803c8bc1719a1f0cb0e05"
-  integrity sha512-qmkg/ymIJ53ddx3ZHEPpH1HiJ/IJc7WSHo/xw6ja/21gRNn28dfeROtRLm1t4/o9y4oSH7RM99IeIL1mGYA1gw==
-
 "@tailwindvue/tailwindvue@^0.1.13":
   version "0.1.15"
   resolved "https://registry.yarnpkg.com/@tailwindvue/tailwindvue/-/tailwindvue-0.1.15.tgz#08ca4df47d5af819f70eda60234edce82845fe73"
