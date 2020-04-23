@@ -29,7 +29,7 @@
                              open>
                         <summary>
                             <span class="cursor-pointer">
-                                {{ variantName }}x
+                                {{ variantName }}
                             </span>
                         </summary>
                         <div class="p-4 my-1 border rounded">
