@@ -7,7 +7,7 @@
 
         <p>You can use a slot called icon to add an icon to your alert.</p>
 
-        <tw-code-demo language="vuejs"
+        <tw-code-demo language="html"
                       caption="Basic alert usage">
             <tw-alert>
                 <template #icon>

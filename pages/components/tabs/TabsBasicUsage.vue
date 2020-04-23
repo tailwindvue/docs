@@ -5,7 +5,7 @@
                     variant="h2"
                     text="Basic Usage" />
 
-        <tw-code-demo language="vuejs"
+        <tw-code-demo language="html"
                       caption="Basic tab usage">
 
             <tw-tabs>

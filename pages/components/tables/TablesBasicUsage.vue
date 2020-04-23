@@ -17,7 +17,7 @@
             to generate the table headings. Each object will then be rendered as a table row.
         </p>
 
-        <tw-code-demo language="vuejs"
+        <tw-code-demo language="html"
                       caption="Basic table usage">
             <tw-table :items="items" />
 
@@ -35,7 +35,7 @@
             slots.
         </p>
 
-        <tw-code-demo language="vuejs"
+        <tw-code-demo language="html"
                       caption="Basic table usage with the default slot">
             <tw-table>
                 <template #header>

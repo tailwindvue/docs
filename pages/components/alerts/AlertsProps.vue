@@ -17,7 +17,7 @@
             <span @click="showAlert($refs.dismissable)">Bring the alert back.</span>
         </div>
 
-        <tw-code-demo language="vuejs"
+        <tw-code-demo language="html"
                       caption="A dismissable alert">
             <tw-alert ref="dismissable"
                       :dismissable="true"
@@ -42,7 +42,7 @@
         <div v-else
              @click="duration=3">Start the demo</div>
 
-        <tw-code-demo language="vuejs"
+        <tw-code-demo language="html"
                       caption="An alert that will disappear after a certain duration">
             <tw-alert ref="selfHidden"
                       :duration="duration"

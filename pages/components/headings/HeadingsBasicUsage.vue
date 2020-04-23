@@ -9,7 +9,7 @@
             You pass the heading through the default slot:
         </p>
 
-        <tw-code-demo language="vuejs"
+        <tw-code-demo language="html"
                       caption="H1">
             <tw-heading>A heading.</tw-heading>
 
@@ -22,7 +22,7 @@
             Or you can use the text prop:
         </p>
 
-        <tw-code-demo language="vuejs"
+        <tw-code-demo language="html"
                       caption="H1">
             <tw-heading text="Another Heading" />
 

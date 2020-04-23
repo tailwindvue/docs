@@ -7,7 +7,7 @@
 
         <tw-tabbed-code-demo>
             <tw-tab name="Default">
-                <tw-code-demo language="vuejs"
+                <tw-code-demo language="html"
                               caption="Default Badge">
                     <tw-badge text="Badge" />
 
@@ -18,7 +18,7 @@
             </tw-tab>
 
             <tw-tab name="Info">
-                <tw-code-demo language="vuejs"
+                <tw-code-demo language="html"
                               caption="Info Badge">
                     <tw-badge variant="info"
                               text="Badge" />
@@ -30,7 +30,7 @@
             </tw-tab>
 
             <tw-tab name="Warning">
-                <tw-code-demo language="vuejs"
+                <tw-code-demo language="html"
                               caption="Warning Badge">
                     <tw-badge variant="warning"
                               text="Badge" />
@@ -42,7 +42,7 @@
             </tw-tab>
 
             <tw-tab name="Danger">
-                <tw-code-demo language="vuejs"
+                <tw-code-demo language="html"
                               caption="Danger Badge">
                     <tw-badge variant="danger"
                               text="Badge" />
@@ -54,7 +54,7 @@
             </tw-tab>
 
             <tw-tab name="Success">
-                <tw-code-demo language="vuejs"
+                <tw-code-demo language="html"
                               caption="Success Badge">
                     <tw-badge variant="success"
                               text="Badge" />
@@ -66,7 +66,7 @@
             </tw-tab>
 
             <tw-tab name="All">
-                <tw-code-demo language="vuejs"
+                <tw-code-demo language="html"
                               caption="All Alerts">
 
                     <div class="mb-4">

@@ -9,7 +9,7 @@
             You pass the badge text through the default slot:
         </p>
 
-        <tw-code-demo language="vuejs"
+        <tw-code-demo language="html"
                       caption="Basic badge usage with slot">
             <tw-badge>Badge</tw-badge>
 
@@ -22,7 +22,7 @@
             Or you can use the text prop:
         </p>
 
-        <tw-code-demo language="vuejs"
+        <tw-code-demo language="html"
                       caption="Basic badge usage with text prop">
             <tw-badge text="badge" />
 
