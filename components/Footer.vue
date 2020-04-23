@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="p-4 bg-gray-100 border-t">
         <i class="fas fa-envelope fa-fw" />
         <a href="mailto:hello@tailwindvue.com">
             hello@tailwindvue.com
