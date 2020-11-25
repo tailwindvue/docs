@@ -23,7 +23,7 @@
     "dependencies": {
         "@tailwindvue/direct-children-plugin": "^1.0.0",
         "@tailwindvue/tailwindvue": "^0.1.13",
-        "highlight.js": "^9.18.1",
+        "highlight.js": "^10.1.2",
         "lodash.foreach": "^4.5.0",
         "nuxt": "^2.0.0"
     },
